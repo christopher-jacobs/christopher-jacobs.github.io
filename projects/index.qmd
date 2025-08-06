@@ -4,7 +4,6 @@ listing:
   contents: projects.yml
   type: grid
   max-description-length: 250
-  sort-ui: true
   filter-ui: true
   #fields: [title, description, categories]
   field-display-names:

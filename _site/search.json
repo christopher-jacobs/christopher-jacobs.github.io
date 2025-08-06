@@ -4,7 +4,7 @@
     "href": "projects/index.html",
     "title": "Projects",
     "section": "",
-    "text": "Order By\n      Default\n      \n        Project\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nThree-Dimensional Pathfinding\n\n\n\nC/C++\n\nPathfinding\n\nAlgorithm and Design\n\n\n\nEnter description here\n\n\n\nMay 1, 2023\n\n\n\n\n\n\nNo matching items"
+    "text": "Three-Dimensional Pathfinding\n\n\n\nC/C++\n\nPathfinding\n\nAlgorithm and Design\n\n\n\nEnter description here\n\n\n\nMay 1, 2023\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "blog/third-post/index.html",
@@ -32,7 +32,7 @@
     "href": "index.html",
     "title": "Christopher Jacobs",
     "section": "",
-    "text": "Christopher Jacobs is a Ph.D. student in Computer Science at Clemson University. His area of interest is within visual computing, with a focus on researching how neural rendering techniques, such as Gaussian Splatting, can improve capture workflows and become closer to production-ready. This work focuses on understanding and adapting these methods for practical applications.\nChristopher brings a unique perspective to computer graphics research, combining his computer science background with creative expertise from his Master’s in Digital Production Arts. His goal is to bridge cutting-edge research with real-world applications, particularly in digital media production.\nHe was originally drawn to computer graphics through his fascination with game and animation production pipelines and is now motivated by the opportunity to develop new tools and pioneer technologies that others will build upon. He thrives in collaborative environments, typically approaching problems from a big-picture perspective before diving into more iterative refinements.\nBased at Clemson’s Charleston Innovation Campus, Christopher balances his research with interests in cooking, gardening, and staying active through weightlifting and running. He is always interested in connecting with fellow researchers and industry professionals working in related areas. Contact him through email to get in touch!"
+    "text": "Christopher Jacobs is a Ph.D. student in Computer Science at Clemson University advised by Dr. Eric Patterson. His area of interest is within visual computing, with a focus on researching how neural rendering techniques, such as Gaussian Splatting, can improve capture workflows and become closer to production-ready. This work focuses on understanding and adapting these methods for practical applications.\nChristopher brings a unique perspective to computer graphics research, combining his computer science background with creative expertise from his Master’s in Digital Production Arts. His goal is to bridge cutting-edge research with real-world applications, particularly in digital media production.\nHe was originally drawn to computer graphics through his fascination with game and animation production pipelines and is now motivated by the opportunity to develop new tools and pioneer technologies that others will build upon. He thrives in collaborative environments, typically approaching problems from a big-picture perspective before diving into more iterative refinements.\nBased at Clemson’s Charleston Innovation Campus, Christopher balances his research with interests in cooking, gardening, and staying active through weightlifting and running. He is always interested in connecting with fellow researchers and industry professionals working in related areas. Contact him through email to get in touch!"
   },
   {
     "objectID": "index.html#education",
@@ -67,7 +67,7 @@
     "href": "index.html#about-me",
     "title": "Christopher Jacobs",
     "section": "",
-    "text": "Christopher Jacobs is a Ph.D. student in Computer Science at Clemson University. His area of interest is within visual computing, with a focus on researching how neural rendering techniques, such as Gaussian Splatting, can improve capture workflows and become closer to production-ready. This work focuses on understanding and adapting these methods for practical applications.\nChristopher brings a unique perspective to computer graphics research, combining his computer science background with creative expertise from his Master’s in Digital Production Arts. His goal is to bridge cutting-edge research with real-world applications, particularly in digital media production.\nHe was originally drawn to computer graphics through his fascination with game and animation production pipelines and is now motivated by the opportunity to develop new tools and pioneer technologies that others will build upon. He thrives in collaborative environments, typically approaching problems from a big-picture perspective before diving into more iterative refinements.\nBased at Clemson’s Charleston Innovation Campus, Christopher balances his research with interests in cooking, gardening, and staying active through weightlifting and running. He is always interested in connecting with fellow researchers and industry professionals working in related areas. Contact him through email to get in touch!"
+    "text": "Christopher Jacobs is a Ph.D. student in Computer Science at Clemson University advised by Dr. Eric Patterson. His area of interest is within visual computing, with a focus on researching how neural rendering techniques, such as Gaussian Splatting, can improve capture workflows and become closer to production-ready. This work focuses on understanding and adapting these methods for practical applications.\nChristopher brings a unique perspective to computer graphics research, combining his computer science background with creative expertise from his Master’s in Digital Production Arts. His goal is to bridge cutting-edge research with real-world applications, particularly in digital media production.\nHe was originally drawn to computer graphics through his fascination with game and animation production pipelines and is now motivated by the opportunity to develop new tools and pioneer technologies that others will build upon. He thrives in collaborative environments, typically approaching problems from a big-picture perspective before diving into more iterative refinements.\nBased at Clemson’s Charleston Innovation Campus, Christopher balances his research with interests in cooking, gardening, and staying active through weightlifting and running. He is always interested in connecting with fellow researchers and industry professionals working in related areas. Contact him through email to get in touch!"
   },
   {
     "objectID": "art/index.html",
@@ -75,5 +75,12 @@
     "title": "Art",
     "section": "",
     "text": "No matching items"
+  },
+  {
+    "objectID": "research/index.html",
+    "href": "research/index.html",
+    "title": "Research",
+    "section": "",
+    "text": "Research\nDescription\nTopics\n\n\n\n\n\nNo matching items"
   }
 ]

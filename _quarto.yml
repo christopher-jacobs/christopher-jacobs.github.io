@@ -11,6 +11,8 @@ website:
     right:
       - href: projects/index.qmd
         text: Projects
+      - href: research/index.qmd
+        text: Research
       - href: blog/index.qmd
         text: Blog
       - href: art/index.qmd

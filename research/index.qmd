@@ -1,0 +1,12 @@
+---
+title: Research
+listing:
+    # contents: research.yml
+    type: table
+    max-description-length: 250
+    filter-ui: true
+    fields: [title, description, categories]
+    field-display-names:
+        title: "Research"
+        categories: "Topics"
+---
