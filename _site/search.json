@@ -1,24 +1,24 @@
 [
   {
-    "objectID": "projects/index.html",
-    "href": "projects/index.html",
-    "title": "Projects",
+    "objectID": "research/index.html",
+    "href": "research/index.html",
+    "title": "Research",
     "section": "",
-    "text": "Three-Dimensional Pathfinding\n\n\n\nC/C++\n\nPathfinding\n\nAlgorithm and Design\n\n\n\nEnter description here\n\n\n\nMay 1, 2023\n\n\n\n\n\n\nNo matching items"
+    "text": "Research\nDescription\nTopics\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "blog/third-post/index.html",
-    "href": "blog/third-post/index.html",
-    "title": "Third Blog Post",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Christopher Jacobs",
     "section": "",
-    "text": "The source for any page in your website could also be a Jupyter Notebook. This one is third-post/index.ipynb.\nHere’s an example I borrowed from the Seaborn docs:\n\nimport seaborn as sns\n\nsns.set_theme(style=\"whitegrid\")\n\n# Load the diamonds dataset\ndiamonds = sns.load_dataset(\"diamonds\")\n\n# Plot the distribution of clarity ratings, conditional on carat\nsns.displot(\n    data=diamonds,\n    x=\"carat\", hue=\"cut\",\n    kind=\"kde\", height=4, aspect=1.5,\n    multiple=\"fill\", clip=(0, None),\n    palette=\"ch:rot=-.25,hue=1,light=.75\",   \n)"
+    "text": "My name is Christopher Jacobs, and I am a Ph.D. student in Computer Science at Clemson University, advised by Dr. Eric Patterson and currently based at Clemson’s Charleston Innovation Campus. My area of interest is within visual computing, with a focus on neural rendering techniques, facial analysis, and material capture.\nI bring a unique perspective to computer graphics research, combining my computer science background with creative expertise from my master’s in Digital Production Arts. My goal is to bridge cutting-edge research with real-world applications, particularly in digital media production.\nI was originally drawn to computer graphics through my fascination with game and animation production pipelines, and I am now motivated by the opportunity to develop new tools and pioneer technologies that others will build upon. I thrive in collaborative environments, typically approaching problems from a big-picture perspective before diving into more iterative refinements.\nI like to balance my research with hobbies such as cooking, gardening, and staying active through weightlifting and running. I am always interested in connecting with fellow researchers and industry professionals working in related areas. You can reach me through email here."
   },
   {
-    "objectID": "blog/first-post/index.html",
-    "href": "blog/first-post/index.html",
-    "title": "First Post",
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "Christopher Jacobs",
     "section": "",
-    "text": "Sed risus ultricies tristique nulla aliquet. Neque volutpat ac tincidunt vitae semper quis lectus nulla.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim sed faucibus turpis in eu mi bibendum neque. Ac orci phasellus egestas tellus rutrum tellus pellentesque eu. Velit sed ullamcorper morbi tincidunt ornare massa. Sagittis id consectetur purus ut faucibus pulvinar elementum integer. Tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada proin libero. Lobortis feugiat vivamus at augue eget arcu. Aliquam ut porttitor leo a diam sollicitudin tempor id eu. Mauris a diam maecenas sed enim ut sem viverra aliquet. Enim ut tellus elementum sagittis vitae et leo duis. Molestie at elementum eu facilisis sed odio morbi quis commodo. Sapien pellentesque habitant morbi tristique senectus. Quam vulputate dignissim suspendisse in est. Nulla pellentesque dignissim enim sit amet venenatis urna cursus eget.\nVelit aliquet sagittis id consectetur purus ut faucibus pulvinar elementum. Viverra mauris in aliquam sem fringilla ut morbi tincidunt augue. Tortor at auctor urna nunc id. Sit amet consectetur adipiscing elit duis tristique sollicitudin. Aliquet nibh praesent tristique magna sit amet purus. Tristique senectus et netus et malesuada fames ac turpis. Hac habitasse platea dictumst quisque. Auctor neque vitae tempus quam pellentesque nec nam aliquam. Ultrices tincidunt arcu non sodales neque sodales ut etiam. Iaculis at erat pellentesque adipiscing. Cras tincidunt lobortis feugiat vivamus. Nisi est sit amet facilisis magna etiam. Pharetra pharetra massa massa ultricies mi quis hendrerit. Vitae sapien pellentesque habitant morbi tristique senectus. Ornare aenean euismod elementum nisi quis eleifend quam adipiscing vitae."
+    "text": "My name is Christopher Jacobs, and I am a Ph.D. student in Computer Science at Clemson University, advised by Dr. Eric Patterson and currently based at Clemson’s Charleston Innovation Campus. My area of interest is within visual computing, with a focus on neural rendering techniques, facial analysis, and material capture.\nI bring a unique perspective to computer graphics research, combining my computer science background with creative expertise from my master’s in Digital Production Arts. My goal is to bridge cutting-edge research with real-world applications, particularly in digital media production.\nI was originally drawn to computer graphics through my fascination with game and animation production pipelines, and I am now motivated by the opportunity to develop new tools and pioneer technologies that others will build upon. I thrive in collaborative environments, typically approaching problems from a big-picture perspective before diving into more iterative refinements.\nI like to balance my research with hobbies such as cooking, gardening, and staying active through weightlifting and running. I am always interested in connecting with fellow researchers and industry professionals working in related areas. You can reach me through email here."
   },
   {
     "objectID": "blog/second-post/index.html",
@@ -28,32 +28,11 @@
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis imperdiet massa tincidunt nunc pulvinar sapien et ligula. Amet cursus sit amet dictum sit amet. Eget duis at tellus at urna condimentum. Convallis aenean et tortor at risus viverra. Tincidunt ornare massa eget egestas purus viverra accumsan. Et malesuada fames ac turpis egestas. At imperdiet dui accumsan sit amet. Ut ornare lectus sit amet est placerat. Enim nulla aliquet porttitor lacus luctus accumsan tortor posuere. Duis ultricies lacus sed turpis tincidunt id aliquet risus. Mattis enim ut tellus elementum sagittis. Dui id ornare arcu odio ut. Natoque penatibus et magnis dis. Libero justo laoreet sit amet cursus sit. Sed faucibus turpis in eu. Tempus iaculis urna id volutpat lacus laoreet.\nPhasellus vestibulum lorem sed risus. Eget felis eget nunc lobortis mattis. Sit amet aliquam id diam maecenas ultricies. Egestas maecenas pharetra convallis posuere morbi. Etiam erat velit scelerisque in dictum non consectetur a erat. Cras fermentum odio eu feugiat pretium nibh ipsum consequat. Viverra accumsan in nisl nisi scelerisque. Et netus et malesuada fames ac. Amet tellus cras adipiscing enim eu turpis egestas pretium aenean. Eget lorem dolor sed viverra ipsum nunc aliquet. Ultrices dui sapien eget mi proin sed libero enim sed. Ultricies mi eget mauris pharetra et ultrices neque. Ipsum suspendisse ultrices gravida dictum. A arcu cursus vitae congue mauris rhoncus aenean vel. Gravida arcu ac tortor dignissim convallis. Nulla posuere sollicitudin aliquam ultrices."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Christopher Jacobs",
+    "objectID": "blog/first-post/index.html",
+    "href": "blog/first-post/index.html",
+    "title": "First Post",
     "section": "",
-    "text": "Christopher Jacobs is a Ph.D. student in Computer Science at Clemson University advised by Dr. Eric Patterson. His area of interest is within visual computing, with a focus on researching how neural rendering techniques, such as Gaussian Splatting, can improve capture workflows and become closer to production-ready. This work focuses on understanding and adapting these methods for practical applications.\nChristopher brings a unique perspective to computer graphics research, combining his computer science background with creative expertise from his Master’s in Digital Production Arts. His goal is to bridge cutting-edge research with real-world applications, particularly in digital media production.\nHe was originally drawn to computer graphics through his fascination with game and animation production pipelines and is now motivated by the opportunity to develop new tools and pioneer technologies that others will build upon. He thrives in collaborative environments, typically approaching problems from a big-picture perspective before diving into more iterative refinements.\nBased at Clemson’s Charleston Innovation Campus, Christopher balances his research with interests in cooking, gardening, and staying active through weightlifting and running. He is always interested in connecting with fellow researchers and industry professionals working in related areas. Contact him through email to get in touch!"
-  },
-  {
-    "objectID": "index.html#education",
-    "href": "index.html#education",
-    "title": "Christopher Jacobs",
-    "section": "Education",
-    "text": "Education\nDoctor of Philosophy in Computer Science | Clemson University | Present\nMaster of Science in Digital Production Arts | Clemson University | August 2022 - May 2024\nBachelor of Science in Computer Science | Francis Marion University | August 2018 - May 2022"
-  },
-  {
-    "objectID": "index.html#experience",
-    "href": "index.html#experience",
-    "title": "Christopher Jacobs",
-    "section": "Experience",
-    "text": "Experience\nClemson University | Research Assistant | February 2024 - present\nAmerican Eagle Outfitters | Management Team (Assistant Manager, Sales Leader, Stock Leader) | October 2018 - May 2022"
-  },
-  {
-    "objectID": "talks.html",
-    "href": "talks.html",
-    "title": "Talks",
-    "section": "",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis posuere ligula sit amet lacinia. Duis dignissim pellentesque magna, rhoncus congue sapien finibus mollis. Ut eu sem laoreet, vehicula ipsum in, convallis erat. Vestibulum magna sem, blandit pulvinar augue sit amet, auctor malesuada sapien. Nullam faucibus leo eget eros hendrerit, non laoreet ipsum lacinia. Curabitur cursus diam elit, non tempus ante volutpat a. Quisque hendrerit blandit purus non fringilla. Integer sit amet elit viverra ante dapibus semper. Vestibulum viverra rutrum enim, at luctus enim posuere eu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+    "text": "Sed risus ultricies tristique nulla aliquet. Neque volutpat ac tincidunt vitae semper quis lectus nulla.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim sed faucibus turpis in eu mi bibendum neque. Ac orci phasellus egestas tellus rutrum tellus pellentesque eu. Velit sed ullamcorper morbi tincidunt ornare massa. Sagittis id consectetur purus ut faucibus pulvinar elementum integer. Tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada proin libero. Lobortis feugiat vivamus at augue eget arcu. Aliquam ut porttitor leo a diam sollicitudin tempor id eu. Mauris a diam maecenas sed enim ut sem viverra aliquet. Enim ut tellus elementum sagittis vitae et leo duis. Molestie at elementum eu facilisis sed odio morbi quis commodo. Sapien pellentesque habitant morbi tristique senectus. Quam vulputate dignissim suspendisse in est. Nulla pellentesque dignissim enim sit amet venenatis urna cursus eget.\nVelit aliquet sagittis id consectetur purus ut faucibus pulvinar elementum. Viverra mauris in aliquam sem fringilla ut morbi tincidunt augue. Tortor at auctor urna nunc id. Sit amet consectetur adipiscing elit duis tristique sollicitudin. Aliquet nibh praesent tristique magna sit amet purus. Tristique senectus et netus et malesuada fames ac turpis. Hac habitasse platea dictumst quisque. Auctor neque vitae tempus quam pellentesque nec nam aliquam. Ultrices tincidunt arcu non sodales neque sodales ut etiam. Iaculis at erat pellentesque adipiscing. Cras tincidunt lobortis feugiat vivamus. Nisi est sit amet facilisis magna etiam. Pharetra pharetra massa massa ultricies mi quis hendrerit. Vitae sapien pellentesque habitant morbi tristique senectus. Ornare aenean euismod elementum nisi quis eleifend quam adipiscing vitae."
   },
   {
     "objectID": "blog/index.html",
@@ -63,24 +42,17 @@
     "text": "First Post\n\n\nPost description for first post\n\n\n\nAlicia\n\n\nMay 22, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\nSecond Post\n\n\nPost description for second post\n\n\n\nAlicia\n\n\nMay 23, 2021\n\n\n\n\n\n\n\n\n\n\n\nThird Blog Post\n\n\nAn example post where the source document is a Jupyter Notebook\n\n\n\nAlicia\n\n\nMay 24, 2021\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "index.html#about-me",
-    "href": "index.html#about-me",
-    "title": "Christopher Jacobs",
+    "objectID": "blog/third-post/index.html",
+    "href": "blog/third-post/index.html",
+    "title": "Third Blog Post",
     "section": "",
-    "text": "Christopher Jacobs is a Ph.D. student in Computer Science at Clemson University advised by Dr. Eric Patterson. His area of interest is within visual computing, with a focus on researching how neural rendering techniques, such as Gaussian Splatting, can improve capture workflows and become closer to production-ready. This work focuses on understanding and adapting these methods for practical applications.\nChristopher brings a unique perspective to computer graphics research, combining his computer science background with creative expertise from his Master’s in Digital Production Arts. His goal is to bridge cutting-edge research with real-world applications, particularly in digital media production.\nHe was originally drawn to computer graphics through his fascination with game and animation production pipelines and is now motivated by the opportunity to develop new tools and pioneer technologies that others will build upon. He thrives in collaborative environments, typically approaching problems from a big-picture perspective before diving into more iterative refinements.\nBased at Clemson’s Charleston Innovation Campus, Christopher balances his research with interests in cooking, gardening, and staying active through weightlifting and running. He is always interested in connecting with fellow researchers and industry professionals working in related areas. Contact him through email to get in touch!"
+    "text": "The source for any page in your website could also be a Jupyter Notebook. This one is third-post/index.ipynb.\nHere’s an example I borrowed from the Seaborn docs:\n\nimport seaborn as sns\n\nsns.set_theme(style=\"whitegrid\")\n\n# Load the diamonds dataset\ndiamonds = sns.load_dataset(\"diamonds\")\n\n# Plot the distribution of clarity ratings, conditional on carat\nsns.displot(\n    data=diamonds,\n    x=\"carat\", hue=\"cut\",\n    kind=\"kde\", height=4, aspect=1.5,\n    multiple=\"fill\", clip=(0, None),\n    palette=\"ch:rot=-.25,hue=1,light=.75\",   \n)"
   },
   {
-    "objectID": "art/index.html",
-    "href": "art/index.html",
-    "title": "Art",
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "Projects",
     "section": "",
-    "text": "No matching items"
-  },
-  {
-    "objectID": "research/index.html",
-    "href": "research/index.html",
-    "title": "Research",
-    "section": "",
-    "text": "Research\nDescription\nTopics\n\n\n\n\n\nNo matching items"
+    "text": "Three-Dimensional Pathfinding\n\n\n\nC/C++\n\nPathfinding\n\nAlgorithm and Design\n\n\n\nEnter description here\n\n\n\nMay 1, 2023\n\n\n\n\n\n\nNo matching items"
   }
 ]

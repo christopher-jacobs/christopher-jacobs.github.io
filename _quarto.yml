@@ -18,7 +18,11 @@ website:
       - href: art/index.qmd
         text: Art/Media
 
-        
+resources:
+  - "files/"
+  - "*.pdf"
+  - "JacobsChristopher_Resume.pdf"
+    
 format:
   html:
     mainfont: "monospace"
