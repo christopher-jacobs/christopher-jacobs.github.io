@@ -7,6 +7,13 @@
     "text": "Research\nDescription\nTopics\n\n\n\n\n\nNo matching items"
   },
   {
+    "objectID": "projects/three_dim/index.html",
+    "href": "projects/three_dim/index.html",
+    "title": "Three-Dimensional Pathfinding",
+    "section": "",
+    "text": "Talk about project"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Christopher Jacobs",
@@ -53,6 +60,13 @@
     "href": "projects/index.html",
     "title": "Projects",
     "section": "",
-    "text": "Three-Dimensional Pathfinding\n\n\n\nC/C++\n\nPathfinding\n\nAlgorithm and Design\n\n\n\nEnter description here\n\n\n\nMay 1, 2023\n\n\n\n\n\n\nNo matching items"
+    "text": "Three-Dimensional Pathfinding\n\n\n\nC/C++\n\nPathfinding\n\nAlgorithm and Design\n\nOpenGL\n\n\n\nA three-dimensional pathfinding program that utilizes A* and OpenGL to map the shortest path considering user-inputted obstacles.\n\n\n\n\n\n\n\n\n\n\n\n\nUnreal Engine Style Transfer Tool\n\n\n\nPython\n\nUnreal Engine\n\nPyTorch\n\nTools & Scripts\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/unreal_style/index.html",
+    "href": "projects/unreal_style/index.html",
+    "title": "Unreal Engine Style Transfer Tool",
+    "section": "",
+    "text": "Put thing down for Unreal Engine"
   }
 ]

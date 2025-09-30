@@ -1,7 +1,6 @@
 ---
 title: "Christopher Jacobs"
 subtitle: "PhD Student | Visual Computing Researcher"
-# `profile.jpg` photo by Jan Tinneberg on https://unsplash.com
 image: chris-headshot.jpg
 about: # https://quarto.org/docs/websites/website-about.html
   template: trestles

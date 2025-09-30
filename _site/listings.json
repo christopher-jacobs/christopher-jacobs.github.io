@@ -13,6 +13,9 @@
   },
   {
     "listing": "/projects/index.html",
-    "items": []
+    "items": [
+      "/projects/three_dim/index.html",
+      "/projects/unreal_style/index.html"
+    ]
   }
 ]

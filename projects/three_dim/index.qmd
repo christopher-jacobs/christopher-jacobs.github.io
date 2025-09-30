@@ -1,0 +1,11 @@
+---
+title: "Three-Dimensional Pathfinding"
+description: "Post description for first project"
+author: "Christopher Jacobs"
+date: "Date Here"
+image: "Image here"
+categories:
+    - C++
+---
+
+Talk about project

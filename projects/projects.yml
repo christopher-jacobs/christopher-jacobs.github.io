@@ -32,10 +32,18 @@
 #   date: 2024-07-01
 
 - title: Three-Dimensional Pathfinding
-  path: https://example.com/three-dimensional
-  # Photo by AHHHHHHHHHHHHH
-  image: images/anne-nygard-vc-vPgGqAr4-unsplash.jpg
+  path: ./three_dim/index.qmd
+  #image: images/anne-nygard-vc-vPgGqAr4-unsplash.jpg
   description: >
-    Enter description here
-  categories: [C/C++, Pathfinding, Algorithm and Design]
+    A three-dimensional pathfinding program that utilizes A* and
+    OpenGL to map the shortest path considering user-inputted obstacles.
+  categories: [C/C++, Pathfinding, Algorithm and Design, OpenGL]
   date: 2023-05-01
+
+- title: Unreal Engine Style Transfer Tool
+  path: ./unreal_style/index.qmd
+  description: >
+    A Python script that utilizes PyTorch to pre-visualize styles
+    on assets within Unreal Engine 5 using Convolutional Neural Networks.
+  categories: [Python, Unreal Engine, PyTorch, Tools & Scripts]
+  date: 2023-12-01
