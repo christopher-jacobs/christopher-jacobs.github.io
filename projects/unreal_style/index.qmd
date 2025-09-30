@@ -1,11 +1,28 @@
 ---
 title: "Unreal Engine Style Transfer Tool"
-description: "Post description for second project"
-author: "Christopher Jacobs"
-date: "Date Here"
-image: "Image here"
 categories:
     - Python
+    - Unreal Engine
+    - PyTorch
+    - Tools & Scripts
 ---
 
-Put thing down for Unreal Engine
+:::: {.columns}
+
+::: {.column width="50%"}
+
+::: {style="text-align: center;"}
+![Your caption here](../images/adrien-delforge-CrHG_ZYn1Dw-unsplash.jpg){width=85%}
+:::
+
+:::
+
+::: {.column width="50%"}
+
+Your text content goes here. This will appear on the left side taking up 60% of the width. You can write multiple paragraphs in this column.
+
+More text here...
+
+:::
+
+::::

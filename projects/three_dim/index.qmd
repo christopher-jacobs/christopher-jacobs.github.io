@@ -1,11 +1,26 @@
 ---
 title: "Three-Dimensional Pathfinding"
-description: "Post description for first project"
-author: "Christopher Jacobs"
-date: "Date Here"
-image: "Image here"
 categories:
     - C++
+    - Algorithm & Design
+    - OpenGL
 ---
+:::: {.columns}
 
-Talk about project
+::: {.column width="50%"}
+
+::: {style="text-align: center;"}
+![Your caption here](../images/adrien-delforge-CrHG_ZYn1Dw-unsplash.jpg){width=85%}
+:::
+
+:::
+
+::: {.column width="50%"}
+
+Your text content goes here. This will appear on the left side taking up 60% of the width. You can write multiple paragraphs in this column.
+
+More text here...
+
+:::
+
+::::

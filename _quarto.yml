@@ -4,7 +4,7 @@ project:
 website:
   title: "Home"
   open-graph: true # https://quarto.org/docs/websites/website-tools.html#open-graph
-  page-footer: "Footer"
+  page-footer: "© 2025 Christopher Jacobs | Visual Computing Researcher at Clemson University"
   navbar:
     search: false
     title: Christopher Jacobs

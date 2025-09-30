@@ -37,7 +37,7 @@
   description: >
     A three-dimensional pathfinding program that utilizes A* and
     OpenGL to map the shortest path considering user-inputted obstacles.
-  categories: [C/C++, Pathfinding, Algorithm and Design, OpenGL]
+  categories: [C/C++, Algorithm and Design, OpenGL]
   date: 2023-05-01
 
 - title: Unreal Engine Style Transfer Tool

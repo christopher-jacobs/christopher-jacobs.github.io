@@ -11,7 +11,7 @@
     "href": "projects/three_dim/index.html",
     "title": "Three-Dimensional Pathfinding",
     "section": "",
-    "text": "Talk about project"
+    "text": "Your caption here\n\n\n\n\nYour text content goes here. This will appear on the left side taking up 60% of the width. You can write multiple paragraphs in this column.\nMore text here…"
   },
   {
     "objectID": "index.html",
@@ -60,13 +60,13 @@
     "href": "projects/index.html",
     "title": "Projects",
     "section": "",
-    "text": "Three-Dimensional Pathfinding\n\n\n\nC/C++\n\nPathfinding\n\nAlgorithm and Design\n\nOpenGL\n\n\n\nA three-dimensional pathfinding program that utilizes A* and OpenGL to map the shortest path considering user-inputted obstacles.\n\n\n\n\n\n\n\n\n\n\n\n\nUnreal Engine Style Transfer Tool\n\n\n\nPython\n\nUnreal Engine\n\nPyTorch\n\nTools & Scripts\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Three-Dimensional Pathfinding\n\n\n\nC/C++\n\nAlgorithm and Design\n\nOpenGL\n\n\n\nA three-dimensional pathfinding program that utilizes A* and OpenGL to map the shortest path considering user-inputted obstacles.\n\n\n\n\n\n\n\n\n\n\nUnreal Engine Style Transfer Tool\n\n\n\nPython\n\nUnreal Engine\n\nPyTorch\n\nTools & Scripts\n\n\n\nA Python script that utilizes PyTorch to pre-visualize styles on assets within Unreal Engine 5 using Convolutional Neural Networks.\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "projects/unreal_style/index.html",
     "href": "projects/unreal_style/index.html",
     "title": "Unreal Engine Style Transfer Tool",
     "section": "",
-    "text": "Put thing down for Unreal Engine"
+    "text": "Your caption here\n\n\n\n\nYour text content goes here. This will appear on the left side taking up 60% of the width. You can write multiple paragraphs in this column.\nMore text here…"
   }
 ]
