@@ -1,12 +1,32 @@
 ---
 title: Research
-listing:
-    # contents: research.yml
-    type: table
-    max-description-length: 250
-    filter-ui: true
-    fields: [title, description, categories]
-    field-display-names:
-        title: "Research"
-        categories: "Topics"
 ---
+<div style="margin-bottom: 4rem;"></div>
+
+## Publications
+
+### Understanding Player Dynamics in Battle Royale Environments: A Data-Driven Analysis Using the Caldera Dataset
+**Emily Port, Christopher Jacobs, Joseph T. Kider Jr.**
+
+*Accepted to ACM SIGGRAPH Motion, Interaction, and Games (MIG) 2025*
+
+---
+
+<div style="margin-bottom: 6rem;"></div>
+
+## Research Experience
+
+
+### Research Assistant - Tracked Vehicle Simulations in Unreal Engine 5 and Project Chrono
+**Eric Patterson, Gregory Mocko, William Luttrell, Christopher Jacobs**
+
+*Virtual Prototyping of Autonomy-Enabled Ground Systems (VIPR-GS) | Clemson University*
+
+---
+
+### Research Assistant - Extensible Real-Time Prototyping Framework within Unreal Engine
+**Christopher Jacobs, Eric Patterson**
+
+*Virtual Prototyping of Autonomy-Enabled Ground Systems (VIPR-GS) | Clemson University*
+
+--- 
