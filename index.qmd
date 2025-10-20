@@ -11,7 +11,7 @@ about: # https://quarto.org/docs/websites/website-about.html
       href: files/JacobsChristopher_Resume.pdf
     - icon: github
       text: Github
-      href: https://github.com/jacobschristopher
+      href: https://github.com/christopher-jacobs
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/christopher-eugene-jacobs/
