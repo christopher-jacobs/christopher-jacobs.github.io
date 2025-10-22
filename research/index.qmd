@@ -3,6 +3,7 @@ title: Research
 ---
 <div style="margin-bottom: 4rem;"></div>
 
+
 ## Publications
 
 ### Understanding Player Dynamics in Battle Royale Environments: A Data-Driven Analysis Using the Caldera Dataset
@@ -12,7 +13,7 @@ title: Research
 
 ---
 
-<div style="margin-bottom: 6rem;"></div>
+<div style="margin-bottom: 4rem;"></div>
 
 ## Research Experience
 
