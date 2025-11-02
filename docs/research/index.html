@@ -70,6 +70,8 @@ ul.task-list li input[type="checkbox"] {
 
 
 <meta property="og:title" content="Research – Home">
+<meta property="og:description" content="">
+<meta property="og:image" content="./images/feather_capture.PNG">
 <meta property="og:site_name" content="Home">
 </head>
 
@@ -134,12 +136,51 @@ ul.task-list li input[type="checkbox"] {
 <div style="margin-bottom: 4rem;">
 
 </div>
+<section id="current-research" class="level2">
+<h2 class="anchored" data-anchor-id="current-research">Current Research</h2>
+<section id="neural-rendering-for-object-caoture-and-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="neural-rendering-for-object-caoture-and-analysis">Neural Rendering for Object Caoture and Analysis</h3>
+<div style="display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: auto auto; column-gap: 2rem; row-gap: 2rem; margin: 2rem 0; max-width: 1200px;">
+  <div style="grid-row: 1 / 3;">
+    <img src="./images/feather_capture.PNG" style="width: 100%; height: 92%; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+    <p class="image-caption">Feather Gaussian Splat (30k iterations)</p>
+  </div>
+  <div>
+    <video style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);" autoplay="" loop="" muted="" playsinline="">
+        <source src="./images/FeatherTestGS.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <p class="image-caption">Gaussian Splat Full View</p>
+  </div>
+  <div>
+    <img src="./images/VARIS.JPG" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+    <p class="image-caption">Variable Illumination Sphere (VarIS)</p>
+  </div>
+</div>
+<div style="margin-bottom: 2rem;">
+
+</div>
+<p><strong>Advisor:</strong> Dr.&nbsp;Eric Patterson | Clemson University<br>
+<strong>Topics:</strong> Gaussian Splatting, Machine Learning, Material Capture, Facial Analysis</p>
+<div style="margin-bottom: 2rem;">
+
+</div>
+<p>As a possible avenue for my dissertation, I am currently exploring neural inference techniques to improve vertex initialization in 3D Gaussian Splatting for facial and object reconstruction. This work focuses on leveraging multi-view feature detection to establish consistent point correspondences without the need for COLMAP algorithms that could be too expensive or incorrect.</p>
+<p>In the preliminary stages of our work, we were able to capture and render a Gaussian Splat model of this feather using Agisoft MetsShape to export COLMAP data. In total it took three days to render, 30,000 iterations, and over one million gaussians were left to be rasterized. Not only does this show remarkable possibility, it gives us a baseline to compare our future method that bypasses COLMAP.</p>
+<hr>
+<div style="margin-bottom: 4rem;">
+
+</div>
+</section>
+</section>
 <section id="publications" class="level2">
 <h2 class="anchored" data-anchor-id="publications">Publications</h2>
 <section id="understanding-player-dynamics-in-battle-royale-environments-a-data-driven-analysis-using-the-caldera-dataset" class="level3">
 <h3 class="anchored" data-anchor-id="understanding-player-dynamics-in-battle-royale-environments-a-data-driven-analysis-using-the-caldera-dataset">Understanding Player Dynamics in Battle Royale Environments: A Data-Driven Analysis Using the Caldera Dataset</h3>
-<p><strong>Emily Port, Christopher Jacobs, Joseph T. Kider Jr.</strong></p>
-<p><em>Accepted to ACM SIGGRAPH Motion, Interaction, and Games (MIG) 2025</em></p>
+<p><strong>Authors:</strong> Emily Port, Christopher Jacobs, Joseph T. Kider Jr.<br>
+<strong>Published:</strong> ACM SIGGRAPH Motion, Interactive and Games (MIG) 2025<br>
+<strong>Keywords:</strong> Visualization, Computer Games, Motion Processing, Player Behavior Modeling</p>
+<p><em>More information coming soon</em></p>
 <hr>
 <div style="margin-bottom: 4rem;">
 
@@ -148,20 +189,50 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="research-experience" class="level2">
 <h2 class="anchored" data-anchor-id="research-experience">Research Experience</h2>
-<section id="research-assistant---tracked-vehicle-simulations-in-unreal-engine-5-and-project-chrono" class="level3">
-<h3 class="anchored" data-anchor-id="research-assistant---tracked-vehicle-simulations-in-unreal-engine-5-and-project-chrono">Research Assistant - Tracked Vehicle Simulations in Unreal Engine 5 and Project Chrono</h3>
-<p><strong>Eric Patterson, Gregory Mocko, William Luttrell, Christopher Jacobs</strong></p>
-<p><em>Virtual Prototyping of Autonomy-Enabled Ground Systems (VIPR-GS) | Clemson University</em></p>
+<section id="tracked-vehicle-simulations-in-unreal-engine-5-and-project-chrono" class="level3">
+<h3 class="anchored" data-anchor-id="tracked-vehicle-simulations-in-unreal-engine-5-and-project-chrono">Tracked Vehicle Simulations in Unreal Engine 5 and Project Chrono</h3>
+<p><strong>Research Assistant</strong> | January 2025 - September 2025<br>
+<strong>Project:</strong> VIPR-GS (Virtual Prototyping of Autonomy-Enabled Ground Systems)<br>
+<strong>Collaborators:</strong> Dr.&nbsp;Eric Patterson, Dr.&nbsp;Gregory Mocko, William Luttrell</p>
+<p>This work continues research with Project Chrono and Unreal Engine implementations to extend the technology towards tracked vehicle analysis.</p>
 <hr>
 </section>
-<section id="research-assistant---extensible-real-time-prototyping-framework-within-unreal-engine" class="level3">
-<h3 class="anchored" data-anchor-id="research-assistant---extensible-real-time-prototyping-framework-within-unreal-engine">Research Assistant - Extensible Real-Time Prototyping Framework within Unreal Engine</h3>
-<p><strong>Christopher Jacobs, Eric Patterson</strong></p>
-<p><em>Virtual Prototyping of Autonomy-Enabled Ground Systems (VIPR-GS) | Clemson University</em></p>
+<section id="extensible-real-time-prototyping-framework-within-unreal-engine" class="level3">
+<h3 class="anchored" data-anchor-id="extensible-real-time-prototyping-framework-within-unreal-engine">Extensible Real-Time Prototyping Framework within Unreal Engine</h3>
+<p><strong>Research Assistant</strong> | February 2024 - February 2025 <strong>Project:</strong> VIPR-GS (Virtual Prototyping of Autonomy-Enabled Ground Systems) <strong>Collaborators:</strong> Dr.&nbsp;Eric Patterson</p>
+<p>Developing real-time simulation and visualization tools for autonomous ground vehicle prototyping, briding high-fidelity physics simulation with interactive 3D environments.</p>
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin: 2rem 0;">
+    <div>
+        <img src="./images/VIPR_Box.jpg" style="width: 100%; height: 79%; border-radius: 8px;">
+        <p class="image-caption">Primitive Project Chrono Simulation</p>
+    </div>
+    <div>
+        <img src="./images/VIPR_Wheeled_Vehicle.png" style="width: 100%; border-radius: 8px;">
+        <p class="image-caption">Full Project Chrono Vehicle Simulation</p>
+    </div>
+</div>
+<p><strong>Technical Contributions:</strong></p>
+<ul>
+<li><strong>Middleware architecture:</strong> Designed and implemented C++ and Python mideleware, enabling bidirectional communication between Project Chrono and Unreal Engine via UDP protocol.</li>
+<li><strong>Physics-informed neural network (PINNs) framework:</strong> Began developing a hybrid neural network model to accelerate wheeled vehicle dynamics while maintaining physical accuracy and reducing computational overhead for real-time applications (due to the project’s end date, this work is left unfinished).</li>
+</ul>
+<p><strong>Technologies:</strong> C++, Python, Unreal Engine 5, Project Chrono, PyTorch, UDP networking</p>
 <hr>
+<div style="margin-bottom: 4rem;">
 
-
+</div>
 </section>
+</section>
+<section id="research-interests" class="level2">
+<h2 class="anchored" data-anchor-id="research-interests">Research Interests</h2>
+<p>My research interests bridges computer graphics, computer vision, and machine learning with applications that can be used in feature films and visual effects:</p>
+<ul>
+<li><strong>Neural Rendering:</strong> Gaussian Splatting, novel view synthesis techniques</li>
+<li><strong>Facial Analysis &amp; Capture:</strong> Facial reconstruction</li>
+<li><strong>Material Appearance:</strong> Subsurface scattering, real-time material rendering, BRDF analysis</li>
+</ul>
+
+
 </section>
 
 </main> <!-- /main -->

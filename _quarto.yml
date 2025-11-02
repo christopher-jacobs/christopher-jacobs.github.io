@@ -24,6 +24,7 @@ resources:
   - "*.pdf"
   - "JacobsChristopher_Resume.pdf"
   - "projects/images/**"
+  - "research/images/**"
     
 format:
   html:
