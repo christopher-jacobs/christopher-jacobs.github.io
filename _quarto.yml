@@ -23,6 +23,7 @@ resources:
   - "files/"
   - "*.pdf"
   - "JacobsChristopher_Resume.pdf"
+  - "projects/images/**"
     
 format:
   html:

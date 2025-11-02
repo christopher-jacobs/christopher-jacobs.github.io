@@ -1,0 +1,140 @@
+---
+title: "Physically-Based Volumetric Renderer"
+format:
+  html:
+    toc: false
+---
+
+
+<div style="margin-bottom: 4rem;"></div>
+
+
+
+## Project Overview
+
+I developed a physically-accurate volumetric rendering system in C++ for creating visual effects commonly used in feature film production. The pipeline utilizes a ray marching algorithm to evaluate implicit volumes and deep shadow maps, generating realistic atmospheric effects including noise clouds, pyroclastic volumes,  wisps, terrain elements, and level sets.
+
+**Technologies:** C++, OpenImageIO, OpenEXR, SWIG
+
+<div style="margin-bottom: 4rem;"></div>
+
+## Technical Implementation
+The rendering pipeline utilizes a multithreaded ray marching approach with physically-based scattering and shadowing models. Key technical components include:
+
+- **Flexible rendering:** Users can render within a sparse grid for bounded rendering or utilize unbounded volume evaluation depending on production requirements
+- **Dual ray marcher architecture:** Separate ray marchers to evaluate deep shadow maps and render volumetric features, enabling physically-accurate light with shadow and scattering properties.
+- **Adaptive step-size optimization:** Dynamic step adjustment to balance performance optimization with rendering quality
+
+<div style="margin-bottom: 4rem;"></div>
+
+## Gallery
+
+Below are three core effects that demonstrate the renderer's capabilities with implicit volumes and procedural noise:
+
+<div style="margin-bottom: 4rem;"></div>
+
+
+### Fractal-Summed Perlin Noise
+
+Perlin Noise that can be modified and animated to mimick nature known as Fractal-Sum Perlin Noise. Includes modifiable parameters such as frequency, amplitude, roughness, frequency jump, and octaves to create more complex effects.
+
+```{=html}
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;">
+  <div>
+    <img src="../images/noise_slice.gif" alt="Noise Slice" style="width: 100%;">
+    <p class= "image-caption">Fractal-Sum Noise Slice</p>
+  </div>
+  <div>
+    <div id="noiseCarousel" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="../images/noise_ff_1.png" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+          <img src="../images/noise_ff_2.png" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+          <img src="../images/noise_ff_3.png" class="d-block w-100">
+        </div>
+      </div>
+      <p class= "image-caption">Fractal-Sum Noise Freeze Frames</p>
+      <button class="carousel-control-prev" type="button" data-bs-target="#noiseCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#noiseCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+  </div>
+</div>
+```
+
+### Pyroclastic Effects
+
+Pyroclastic noise fields combined with implicit functions using iterative closest-point to create trailing smoke, cloud formations, and explosive noise.
+
+```{=html}
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;">
+  <div>
+    <img src="../images/pyro_slice.gif" alt="Pyroclastic Slice" style="width: 100%;">
+    <p class= "image-caption">Pyroclastic Sphere Slice</p>
+  </div>
+  <div>
+    <div id="pyroCarousel" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="../images/pyro_ff_1.png" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+          <img src="../images/pyro_ff_2.png" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+          <img src="../images/pyro_ff_3.png" class="d-block w-100">
+        </div>
+      </div>
+      <p class= "image-caption">Pyroclastic Sphere Freeze Frames</p>
+      <button class="carousel-control-prev" type="button" data-bs-target="#pyroCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#pyroCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+  </div>
+</div>
+```
+
+### Wisps
+
+Particle-based volume generation where millions of particles are stamped and baked into a density grid to create wispy, flowing volumes. These particles can also be constrained to spline paths and contribute to water-like or magical effects.
+
+```{=html}
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;">
+  <div>
+    <img src="../images/wisp_slice.gif" alt="Wisp Slice" style="width: 100%;">
+    <p class= "image-caption">Wisp Slice</p>
+  </div>
+  <div>
+    <div id="wispCarousel" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="../images/wisp_ff_1.png" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+          <img src="../images/wisp_ff_2.png" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+          <img src="../images/wisp_ff_3.png" class="d-block w-100">
+        </div>
+      </div>
+      <p class= "image-caption">Wisp Freeze Frames</p>
+      <button class="carousel-control-prev" type="button" data-bs-target="#wispCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#wispCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+  </div>
+</div>
+```

@@ -14,11 +14,46 @@
     "text": "Research Experience\n\nResearch Assistant - Tracked Vehicle Simulations in Unreal Engine 5 and Project Chrono\nEric Patterson, Gregory Mocko, William Luttrell, Christopher Jacobs\nVirtual Prototyping of Autonomy-Enabled Ground Systems (VIPR-GS) | Clemson University\n\n\n\nResearch Assistant - Extensible Real-Time Prototyping Framework within Unreal Engine\nChristopher Jacobs, Eric Patterson\nVirtual Prototyping of Autonomy-Enabled Ground Systems (VIPR-GS) | Clemson University"
   },
   {
-    "objectID": "projects/three_dim/index.html",
-    "href": "projects/three_dim/index.html",
-    "title": "Three-Dimensional Pathfinding",
+    "objectID": "projects/unreal_style/index.html",
+    "href": "projects/unreal_style/index.html",
+    "title": "Unreal Engine Style Transfer Tool",
     "section": "",
     "text": "Your caption here\n\n\n\n\nYour text content goes here. This will appear on the left side taking up 60% of the width. You can write multiple paragraphs in this column.\nMore text here…"
+  },
+  {
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Physically-Based Volumetric Renderer\n\n\n\nC/C++\n\nPhysically-Based Simulation\n\nComputer Graphics\n\n\n\nA physically-accurate volumetric rendering pipline for creating visual effects commonly used in film productions.\n\n\n\n\n\n\n\n\n\n\nThree-Dimensional Pathfinding\n\n\n\nC/C++\n\nAlgorithm and Design\n\nOpenGL\n\n\n\nA three-dimensional pathfinding program that utilizes A* and OpenGL to map the shortest path considering user-inputted obstacles.\n\n\n\n\n\n\n\n\n\n\nUnreal Engine Style Transfer Tool\n\n\n\nPython\n\nUnreal Engine\n\nPyTorch\n\nTools & Scripts\n\n\n\nA Python script that utilizes PyTorch to pre-visualize styles on assets within Unreal Engine 5 using Convolutional Neural Networks.\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "blog/third-post/index.html",
+    "href": "blog/third-post/index.html",
+    "title": "Third Blog Post",
+    "section": "",
+    "text": "The source for any page in your website could also be a Jupyter Notebook. This one is third-post/index.ipynb.\nHere’s an example I borrowed from the Seaborn docs:\n\nimport seaborn as sns\n\nsns.set_theme(style=\"whitegrid\")\n\n# Load the diamonds dataset\ndiamonds = sns.load_dataset(\"diamonds\")\n\n# Plot the distribution of clarity ratings, conditional on carat\nsns.displot(\n    data=diamonds,\n    x=\"carat\", hue=\"cut\",\n    kind=\"kde\", height=4, aspect=1.5,\n    multiple=\"fill\", clip=(0, None),\n    palette=\"ch:rot=-.25,hue=1,light=.75\",   \n)"
+  },
+  {
+    "objectID": "blog/index.html",
+    "href": "blog/index.html",
+    "title": "Blog",
+    "section": "",
+    "text": "First Post\n\n\nPost description for first post\n\n\n\nAlicia\n\n\nMay 22, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\nSecond Post\n\n\nPost description for second post\n\n\n\nAlicia\n\n\nMay 23, 2021\n\n\n\n\n\n\n\n\n\n\n\nThird Blog Post\n\n\nAn example post where the source document is a Jupyter Notebook\n\n\n\nAlicia\n\n\nMay 24, 2021\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "blog/first-post/index.html",
+    "href": "blog/first-post/index.html",
+    "title": "First Post",
+    "section": "",
+    "text": "Sed risus ultricies tristique nulla aliquet. Neque volutpat ac tincidunt vitae semper quis lectus nulla.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim sed faucibus turpis in eu mi bibendum neque. Ac orci phasellus egestas tellus rutrum tellus pellentesque eu. Velit sed ullamcorper morbi tincidunt ornare massa. Sagittis id consectetur purus ut faucibus pulvinar elementum integer. Tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada proin libero. Lobortis feugiat vivamus at augue eget arcu. Aliquam ut porttitor leo a diam sollicitudin tempor id eu. Mauris a diam maecenas sed enim ut sem viverra aliquet. Enim ut tellus elementum sagittis vitae et leo duis. Molestie at elementum eu facilisis sed odio morbi quis commodo. Sapien pellentesque habitant morbi tristique senectus. Quam vulputate dignissim suspendisse in est. Nulla pellentesque dignissim enim sit amet venenatis urna cursus eget.\nVelit aliquet sagittis id consectetur purus ut faucibus pulvinar elementum. Viverra mauris in aliquam sem fringilla ut morbi tincidunt augue. Tortor at auctor urna nunc id. Sit amet consectetur adipiscing elit duis tristique sollicitudin. Aliquet nibh praesent tristique magna sit amet purus. Tristique senectus et netus et malesuada fames ac turpis. Hac habitasse platea dictumst quisque. Auctor neque vitae tempus quam pellentesque nec nam aliquam. Ultrices tincidunt arcu non sodales neque sodales ut etiam. Iaculis at erat pellentesque adipiscing. Cras tincidunt lobortis feugiat vivamus. Nisi est sit amet facilisis magna etiam. Pharetra pharetra massa massa ultricies mi quis hendrerit. Vitae sapien pellentesque habitant morbi tristique senectus. Ornare aenean euismod elementum nisi quis eleifend quam adipiscing vitae."
+  },
+  {
+    "objectID": "blog/second-post/index.html",
+    "href": "blog/second-post/index.html",
+    "title": "Second Post",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis imperdiet massa tincidunt nunc pulvinar sapien et ligula. Amet cursus sit amet dictum sit amet. Eget duis at tellus at urna condimentum. Convallis aenean et tortor at risus viverra. Tincidunt ornare massa eget egestas purus viverra accumsan. Et malesuada fames ac turpis egestas. At imperdiet dui accumsan sit amet. Ut ornare lectus sit amet est placerat. Enim nulla aliquet porttitor lacus luctus accumsan tortor posuere. Duis ultricies lacus sed turpis tincidunt id aliquet risus. Mattis enim ut tellus elementum sagittis. Dui id ornare arcu odio ut. Natoque penatibus et magnis dis. Libero justo laoreet sit amet cursus sit. Sed faucibus turpis in eu. Tempus iaculis urna id volutpat lacus laoreet.\nPhasellus vestibulum lorem sed risus. Eget felis eget nunc lobortis mattis. Sit amet aliquam id diam maecenas ultricies. Egestas maecenas pharetra convallis posuere morbi. Etiam erat velit scelerisque in dictum non consectetur a erat. Cras fermentum odio eu feugiat pretium nibh ipsum consequat. Viverra accumsan in nisl nisi scelerisque. Et netus et malesuada fames ac. Amet tellus cras adipiscing enim eu turpis egestas pretium aenean. Eget lorem dolor sed viverra ipsum nunc aliquet. Ultrices dui sapien eget mi proin sed libero enim sed. Ultricies mi eget mauris pharetra et ultrices neque. Ipsum suspendisse ultrices gravida dictum. A arcu cursus vitae congue mauris rhoncus aenean vel. Gravida arcu ac tortor dignissim convallis. Nulla posuere sollicitudin aliquam ultrices."
   },
   {
     "objectID": "index.html",
@@ -35,45 +70,59 @@
     "text": "My name is Christopher Jacobs, and I am a Ph.D. student in Computer Science at Clemson University, advised by Dr. Eric Patterson and currently based at Clemson’s Charleston Innovation Campus. My area of interest is within visual computing, with a focus on neural rendering techniques, facial analysis, and material capture.\nI bring a unique perspective to computer graphics research, combining my computer science background with creative expertise from my master’s in Digital Production Arts. My goal is to bridge cutting-edge research with real-world applications, particularly in digital media production.\nI was originally drawn to computer graphics through my fascination with game and animation production pipelines, and I am now motivated by the opportunity to develop new tools and pioneer technologies that others will build upon. I thrive in collaborative environments, typically approaching problems from a big-picture perspective before diving into more iterative refinements.\nI like to balance my research with hobbies such as cooking, gardening, and staying active through weightlifting and running. I am always interested in connecting with fellow researchers and industry professionals working in related areas. You can reach me through email here."
   },
   {
-    "objectID": "blog/second-post/index.html",
-    "href": "blog/second-post/index.html",
-    "title": "Second Post",
-    "section": "",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis imperdiet massa tincidunt nunc pulvinar sapien et ligula. Amet cursus sit amet dictum sit amet. Eget duis at tellus at urna condimentum. Convallis aenean et tortor at risus viverra. Tincidunt ornare massa eget egestas purus viverra accumsan. Et malesuada fames ac turpis egestas. At imperdiet dui accumsan sit amet. Ut ornare lectus sit amet est placerat. Enim nulla aliquet porttitor lacus luctus accumsan tortor posuere. Duis ultricies lacus sed turpis tincidunt id aliquet risus. Mattis enim ut tellus elementum sagittis. Dui id ornare arcu odio ut. Natoque penatibus et magnis dis. Libero justo laoreet sit amet cursus sit. Sed faucibus turpis in eu. Tempus iaculis urna id volutpat lacus laoreet.\nPhasellus vestibulum lorem sed risus. Eget felis eget nunc lobortis mattis. Sit amet aliquam id diam maecenas ultricies. Egestas maecenas pharetra convallis posuere morbi. Etiam erat velit scelerisque in dictum non consectetur a erat. Cras fermentum odio eu feugiat pretium nibh ipsum consequat. Viverra accumsan in nisl nisi scelerisque. Et netus et malesuada fames ac. Amet tellus cras adipiscing enim eu turpis egestas pretium aenean. Eget lorem dolor sed viverra ipsum nunc aliquet. Ultrices dui sapien eget mi proin sed libero enim sed. Ultricies mi eget mauris pharetra et ultrices neque. Ipsum suspendisse ultrices gravida dictum. A arcu cursus vitae congue mauris rhoncus aenean vel. Gravida arcu ac tortor dignissim convallis. Nulla posuere sollicitudin aliquam ultrices."
-  },
-  {
-    "objectID": "blog/first-post/index.html",
-    "href": "blog/first-post/index.html",
-    "title": "First Post",
-    "section": "",
-    "text": "Sed risus ultricies tristique nulla aliquet. Neque volutpat ac tincidunt vitae semper quis lectus nulla.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim sed faucibus turpis in eu mi bibendum neque. Ac orci phasellus egestas tellus rutrum tellus pellentesque eu. Velit sed ullamcorper morbi tincidunt ornare massa. Sagittis id consectetur purus ut faucibus pulvinar elementum integer. Tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada proin libero. Lobortis feugiat vivamus at augue eget arcu. Aliquam ut porttitor leo a diam sollicitudin tempor id eu. Mauris a diam maecenas sed enim ut sem viverra aliquet. Enim ut tellus elementum sagittis vitae et leo duis. Molestie at elementum eu facilisis sed odio morbi quis commodo. Sapien pellentesque habitant morbi tristique senectus. Quam vulputate dignissim suspendisse in est. Nulla pellentesque dignissim enim sit amet venenatis urna cursus eget.\nVelit aliquet sagittis id consectetur purus ut faucibus pulvinar elementum. Viverra mauris in aliquam sem fringilla ut morbi tincidunt augue. Tortor at auctor urna nunc id. Sit amet consectetur adipiscing elit duis tristique sollicitudin. Aliquet nibh praesent tristique magna sit amet purus. Tristique senectus et netus et malesuada fames ac turpis. Hac habitasse platea dictumst quisque. Auctor neque vitae tempus quam pellentesque nec nam aliquam. Ultrices tincidunt arcu non sodales neque sodales ut etiam. Iaculis at erat pellentesque adipiscing. Cras tincidunt lobortis feugiat vivamus. Nisi est sit amet facilisis magna etiam. Pharetra pharetra massa massa ultricies mi quis hendrerit. Vitae sapien pellentesque habitant morbi tristique senectus. Ornare aenean euismod elementum nisi quis eleifend quam adipiscing vitae."
-  },
-  {
-    "objectID": "blog/index.html",
-    "href": "blog/index.html",
-    "title": "Blog",
-    "section": "",
-    "text": "First Post\n\n\nPost description for first post\n\n\n\nAlicia\n\n\nMay 22, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\nSecond Post\n\n\nPost description for second post\n\n\n\nAlicia\n\n\nMay 23, 2021\n\n\n\n\n\n\n\n\n\n\n\nThird Blog Post\n\n\nAn example post where the source document is a Jupyter Notebook\n\n\n\nAlicia\n\n\nMay 24, 2021\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "blog/third-post/index.html",
-    "href": "blog/third-post/index.html",
-    "title": "Third Blog Post",
-    "section": "",
-    "text": "The source for any page in your website could also be a Jupyter Notebook. This one is third-post/index.ipynb.\nHere’s an example I borrowed from the Seaborn docs:\n\nimport seaborn as sns\n\nsns.set_theme(style=\"whitegrid\")\n\n# Load the diamonds dataset\ndiamonds = sns.load_dataset(\"diamonds\")\n\n# Plot the distribution of clarity ratings, conditional on carat\nsns.displot(\n    data=diamonds,\n    x=\"carat\", hue=\"cut\",\n    kind=\"kde\", height=4, aspect=1.5,\n    multiple=\"fill\", clip=(0, None),\n    palette=\"ch:rot=-.25,hue=1,light=.75\",   \n)"
-  },
-  {
-    "objectID": "projects/index.html",
-    "href": "projects/index.html",
-    "title": "Projects",
-    "section": "",
-    "text": "Three-Dimensional Pathfinding\n\n\n\nC/C++\n\nAlgorithm and Design\n\nOpenGL\n\n\n\nA three-dimensional pathfinding program that utilizes A* and OpenGL to map the shortest path considering user-inputted obstacles.\n\n\n\n\n\n\n\n\n\n\nUnreal Engine Style Transfer Tool\n\n\n\nPython\n\nUnreal Engine\n\nPyTorch\n\nTools & Scripts\n\n\n\nA Python script that utilizes PyTorch to pre-visualize styles on assets within Unreal Engine 5 using Convolutional Neural Networks.\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "projects/unreal_style/index.html",
-    "href": "projects/unreal_style/index.html",
-    "title": "Unreal Engine Style Transfer Tool",
+    "objectID": "projects/three_dim/index.html",
+    "href": "projects/three_dim/index.html",
+    "title": "Physically-Based Volumetric Renderer",
     "section": "",
     "text": "Your caption here\n\n\n\n\nYour text content goes here. This will appear on the left side taking up 60% of the width. You can write multiple paragraphs in this column.\nMore text here…"
+  },
+  {
+    "objectID": "projects/volume/index.html#overview",
+    "href": "projects/volume/index.html#overview",
+    "title": "Physically-Based Volumetric Renderer",
+    "section": "Overview",
+    "text": "Overview\nI developed a physically-accurate volumetric rendering system in C++ for creating visual effects commonly used in feature film production. The pipeline utilizes a ray marching algorithm to evaluate implicit volumes and deep shadow maps, generating realistic atmospheric effects including noise clouds, pyroclastic volumes, wisps, terrain elements, and level sets.\nTechnologies: C++, OpenImageIO, OpenEXR, SWIG\nContext: Graduate coursework in Physically-Based Visual Effects at Clemson University under Dr. Jerry Tessendorf\nCourse Focus: Implementation of VFX algorithms used in feature films."
+  },
+  {
+    "objectID": "projects/volume/index.html#technical-implementation",
+    "href": "projects/volume/index.html#technical-implementation",
+    "title": "Physically-Based Volumetric Renderer",
+    "section": "Technical Implementation",
+    "text": "Technical Implementation\nThe rendering pipeline utilizes a multithreaded ray marching approach with physically-based scattering and shadowing models. Key technical components include:\n\nFlexible rendering: Users can render within a sparse grid for bounded rendering or utilize unbounded volume evaluation depending on production requirements\nDual ray marcher architecture: Separate ray marchers to evaluate deep shadow maps and render volumetric features, enabling physically-accurate light with shadow and scattering properties.\nAdaptive step-size optimization: Dynamic step adjustment to balance performance optimization with rendering quality"
+  },
+  {
+    "objectID": "projects/volume/index.html#gallery",
+    "href": "projects/volume/index.html#gallery",
+    "title": "Physically-Based Volumetric Renderer",
+    "section": "Gallery",
+    "text": "Gallery\nBelow are three core effects that demonstrate the renderer’s capabilities with implicit volumes and procedural noise:\n\n\n\n\nFractal-Summed Perlin Noise\nPerlin Noise that can be modified and animated to mimick nature known as Fractal-Sum Perlin Noise. Includes modifiable parameters such as frequency, amplitude, roughness, frequency jump, and octaves to create more complex effects.\n\n  \n    \n    Fractal-Sum Noise Slice\n  \n  \n    \n      \n        \n          \n        \n        \n          \n        \n        \n          \n        \n      \n      Fractal-Sum Noise Freeze Frames\n      \n        \n      \n      \n        \n      \n    \n  \n\n\n\nPyroclastic Effects\nPyroclastic noise fields combined with implicit functions using iterative closest-point to create trailing smoke, cloud formations, and explosive noise.\n\n  \n    \n    Pyroclastic Sphere Slice\n  \n  \n    \n      \n        \n          \n        \n        \n          \n        \n        \n          \n        \n      \n      Pyroclastic Sphere Freeze Frames\n      \n        \n      \n      \n        \n      \n    \n  \n\n\n\nWisps\nParticle-based volume generation where millions of particles are stamped and baked into a density grid to create wispy, flowing volumes. These particles can also be constrained to spline paths and contribute to water-like or magical effects.\n\n  \n    \n    Wisp Slice\n  \n  \n    \n      \n        \n          \n        \n        \n          \n        \n        \n          \n        \n      \n      Wisp Freeze Frames"
+  },
+  {
+    "objectID": "projects/volume/index.html#project-overview",
+    "href": "projects/volume/index.html#project-overview",
+    "title": "Physically-Based Volumetric Renderer",
+    "section": "Project Overview",
+    "text": "Project Overview\nI developed a physically-accurate volumetric rendering system in C++ for creating visual effects commonly used in feature film production. The pipeline utilizes a ray marching algorithm to evaluate implicit volumes and deep shadow maps, generating realistic atmospheric effects including noise clouds, pyroclastic volumes, wisps, terrain elements, and level sets.\nTechnologies: C++, OpenImageIO, OpenEXR, SWIG"
+  },
+  {
+    "objectID": "projects/three_dim/index.html#project-overview",
+    "href": "projects/three_dim/index.html#project-overview",
+    "title": "Three-Dimensional A* Pathfinder",
+    "section": "Project Overview",
+    "text": "Project Overview\nTechnologies:"
+  },
+  {
+    "objectID": "projects/three_dim/index.html#technical-implementation",
+    "href": "projects/three_dim/index.html#technical-implementation",
+    "title": "Three-Dimensional A* Pathfinder",
+    "section": "Technical Implementation",
+    "text": "Technical Implementation\n[]. Key technical components include:"
+  },
+  {
+    "objectID": "projects/three_dim/index.html#gallery",
+    "href": "projects/three_dim/index.html#gallery",
+    "title": "Three-Dimensional A* Pathfinder",
+    "section": "Gallery",
+    "text": "Gallery"
   }
 ]

@@ -6,11 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Alicia">
-<meta name="dcterms.date" content="2021-05-22">
-<meta name="description" content="Post description for first post">
 
-<title>First Post – Home</title>
+<title>Physically-Based Volumetric Renderer – Home</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -72,10 +69,11 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<meta property="og:title" content="First Post – Home">
-<meta property="og:description" content="Post description for first post">
-<meta property="og:image" content="cover.jpg">
+<meta property="og:title" content="Physically-Based Volumetric Renderer – Home">
+<meta property="og:description" content="">
+<meta property="og:image" content="../images/noise_slice.gif">
 <meta property="og:site_name" content="Home">
+<meta property="og:image:alt" content="Noise Slice">
 </head>
 
 <body class="nav-fixed fullcontent quarto-light">
@@ -119,35 +117,14 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">First Post</h1>
-  <div class="quarto-categories">
-    <div class="quarto-category">Science</div>
-    <div class="quarto-category">Technology</div>
-  </div>
-  </div>
-
-<div>
-  <div class="description">
-    Post description for first post
-  </div>
+<h1 class="title">Physically-Based Volumetric Renderer</h1>
 </div>
+
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Alicia </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">May 22, 2021</p>
-    </div>
-  </div>
   
     
   </div>
@@ -157,11 +134,134 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Sed risus ultricies tristique nulla aliquet. Neque volutpat ac tincidunt vitae semper quis lectus nulla.</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim sed faucibus turpis in eu mi bibendum neque. Ac orci phasellus egestas tellus rutrum tellus pellentesque eu. Velit sed ullamcorper morbi tincidunt ornare massa. Sagittis id consectetur purus ut faucibus pulvinar elementum integer. Tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada proin libero. Lobortis feugiat vivamus at augue eget arcu. Aliquam ut porttitor leo a diam sollicitudin tempor id eu. Mauris a diam maecenas sed enim ut sem viverra aliquet. Enim ut tellus elementum sagittis vitae et leo duis. Molestie at elementum eu facilisis sed odio morbi quis commodo. Sapien pellentesque habitant morbi tristique senectus. Quam vulputate dignissim suspendisse in est. Nulla pellentesque dignissim enim sit amet venenatis urna cursus eget.</p>
-<p>Velit aliquet sagittis id consectetur purus ut faucibus pulvinar elementum. Viverra mauris in aliquam sem fringilla ut morbi tincidunt augue. Tortor at auctor urna nunc id. Sit amet consectetur adipiscing elit duis tristique sollicitudin. Aliquet nibh praesent tristique magna sit amet purus. Tristique senectus et netus et malesuada fames ac turpis. Hac habitasse platea dictumst quisque. Auctor neque vitae tempus quam pellentesque nec nam aliquam. Ultrices tincidunt arcu non sodales neque sodales ut etiam. Iaculis at erat pellentesque adipiscing. Cras tincidunt lobortis feugiat vivamus. Nisi est sit amet facilisis magna etiam. Pharetra pharetra massa massa ultricies mi quis hendrerit. Vitae sapien pellentesque habitant morbi tristique senectus. Ornare aenean euismod elementum nisi quis eleifend quam adipiscing vitae.</p>
+<div style="margin-bottom: 4rem;">
+
+</div>
+<section id="project-overview" class="level2">
+<h2 class="anchored" data-anchor-id="project-overview">Project Overview</h2>
+<p>I developed a physically-accurate volumetric rendering system in C++ for creating visual effects commonly used in feature film production. The pipeline utilizes a ray marching algorithm to evaluate implicit volumes and deep shadow maps, generating realistic atmospheric effects including noise clouds, pyroclastic volumes, wisps, terrain elements, and level sets.</p>
+<p><strong>Technologies:</strong> C++, OpenImageIO, OpenEXR, SWIG</p>
+<div style="margin-bottom: 4rem;">
+
+</div>
+</section>
+<section id="technical-implementation" class="level2">
+<h2 class="anchored" data-anchor-id="technical-implementation">Technical Implementation</h2>
+<p>The rendering pipeline utilizes a multithreaded ray marching approach with physically-based scattering and shadowing models. Key technical components include:</p>
+<ul>
+<li><strong>Flexible rendering:</strong> Users can render within a sparse grid for bounded rendering or utilize unbounded volume evaluation depending on production requirements</li>
+<li><strong>Dual ray marcher architecture:</strong> Separate ray marchers to evaluate deep shadow maps and render volumetric features, enabling physically-accurate light with shadow and scattering properties.</li>
+<li><strong>Adaptive step-size optimization:</strong> Dynamic step adjustment to balance performance optimization with rendering quality</li>
+</ul>
+<div style="margin-bottom: 4rem;">
+
+</div>
+</section>
+<section id="gallery" class="level2">
+<h2 class="anchored" data-anchor-id="gallery">Gallery</h2>
+<p>Below are three core effects that demonstrate the renderer’s capabilities with implicit volumes and procedural noise:</p>
+<div style="margin-bottom: 4rem;">
+
+</div>
+<section id="fractal-summed-perlin-noise" class="level3">
+<h3 class="anchored" data-anchor-id="fractal-summed-perlin-noise">Fractal-Summed Perlin Noise</h3>
+<p>Perlin Noise that can be modified and animated to mimick nature known as Fractal-Sum Perlin Noise. Includes modifiable parameters such as frequency, amplitude, roughness, frequency jump, and octaves to create more complex effects.</p>
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;">
+  <div>
+    <img src="../images/noise_slice.gif" alt="Noise Slice" style="width: 100%;">
+    <p class="image-caption">Fractal-Sum Noise Slice</p>
+  </div>
+  <div>
+    <div id="noiseCarousel" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="../images/noise_ff_1.png" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+          <img src="../images/noise_ff_2.png" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+          <img src="../images/noise_ff_3.png" class="d-block w-100">
+        </div>
+      </div>
+      <p class="image-caption">Fractal-Sum Noise Freeze Frames</p>
+      <button class="carousel-control-prev" type="button" data-bs-target="#noiseCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#noiseCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+  </div>
+</div>
+</section>
+<section id="pyroclastic-effects" class="level3">
+<h3 class="anchored" data-anchor-id="pyroclastic-effects">Pyroclastic Effects</h3>
+<p>Pyroclastic noise fields combined with implicit functions using iterative closest-point to create trailing smoke, cloud formations, and explosive noise.</p>
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;">
+  <div>
+    <img src="../images/pyro_slice.gif" alt="Pyroclastic Slice" style="width: 100%;">
+    <p class="image-caption">Pyroclastic Sphere Slice</p>
+  </div>
+  <div>
+    <div id="pyroCarousel" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="../images/pyro_ff_1.png" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+          <img src="../images/pyro_ff_2.png" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+          <img src="../images/pyro_ff_3.png" class="d-block w-100">
+        </div>
+      </div>
+      <p class="image-caption">Pyroclastic Sphere Freeze Frames</p>
+      <button class="carousel-control-prev" type="button" data-bs-target="#pyroCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#pyroCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+  </div>
+</div>
+</section>
+<section id="wisps" class="level3">
+<h3 class="anchored" data-anchor-id="wisps">Wisps</h3>
+<p>Particle-based volume generation where millions of particles are stamped and baked into a density grid to create wispy, flowing volumes. These particles can also be constrained to spline paths and contribute to water-like or magical effects.</p>
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;">
+  <div>
+    <img src="../images/wisp_slice.gif" alt="Wisp Slice" style="width: 100%;">
+    <p class="image-caption">Wisp Slice</p>
+  </div>
+  <div>
+    <div id="wispCarousel" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="../images/wisp_ff_1.png" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+          <img src="../images/wisp_ff_2.png" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+          <img src="../images/wisp_ff_3.png" class="d-block w-100">
+        </div>
+      </div>
+      <p class="image-caption">Wisp Freeze Frames</p>
+      <button class="carousel-control-prev" type="button" data-bs-target="#wispCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#wispCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+  </div>
+</div>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

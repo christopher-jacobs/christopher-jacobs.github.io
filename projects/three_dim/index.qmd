@@ -1,26 +1,33 @@
 ---
-title: "Three-Dimensional Pathfinding"
-categories:
-    - C++
-    - Algorithm & Design
-    - OpenGL
+title: "Three-Dimensional A* Pathfinder"
+format:
+  html:
+    toc: false
 ---
-:::: {.columns}
 
-::: {.column width="50%"}
 
-::: {style="text-align: center;"}
-![Your caption here](../images/adrien-delforge-CrHG_ZYn1Dw-unsplash.jpg){width=85%}
-:::
+<div style="margin-bottom: 4rem;"></div>
 
-:::
 
-::: {.column width="50%"}
 
-Your text content goes here. This will appear on the left side taking up 60% of the width. You can write multiple paragraphs in this column.
+## Project Overview
 
-More text here...
 
-:::
+**Technologies:** 
 
-::::
+
+<div style="margin-bottom: 4rem;"></div>
+
+## Technical Implementation
+[]. Key technical components include:
+
+-
+-
+-
+
+<div style="margin-bottom: 4rem;"></div>
+
+## Gallery
+
+
+<div style="margin-bottom: 4rem;"></div>
