@@ -9,7 +9,7 @@
 
 - title: Three-Dimensional Pathfinding
   path: ./
-  #image: images/anne-nygard-vc-vPgGqAr4-unsplash.jpg
+  image: ./images/three_dim.gif
   description: >
     A three-dimensional pathfinding program that utilizes A* and
     OpenGL to map the shortest path considering user-inputted obstacles.

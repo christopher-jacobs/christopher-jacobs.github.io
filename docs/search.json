@@ -39,7 +39,7 @@
     "href": "projects/index.html",
     "title": "Projects",
     "section": "",
-    "text": "Physically-Based Volumetric Renderer\n\n\n\nC/C++\n\nPhysically-Based Simulation\n\nComputer Graphics\n\n\n\nA physically-accurate volumetric rendering pipline for creating visual effects commonly used in film productions.\n\n\n\n\n\n\n\n\n\n\nThree-Dimensional Pathfinding\n\n\n\nC/C++\n\nAlgorithm and Design\n\nOpenGL\n\n\n\nA three-dimensional pathfinding program that utilizes A* and OpenGL to map the shortest path considering user-inputted obstacles.\n\n\n\n\n\n\n\n\n\n\nUnreal Engine Style Transfer Tool\n\n\n\nPython\n\nUnreal Engine\n\nPyTorch\n\nTools & Scripts\n\n\n\nA Python script that utilizes PyTorch to pre-visualize styles on assets within Unreal Engine 5 using Convolutional Neural Networks.\n\n\n\n\n\nNo matching items"
+    "text": "Physically-Based Volumetric Renderer\n\n\n\nC/C++\n\nPhysically-Based Simulation\n\nComputer Graphics\n\n\n\nA physically-accurate volumetric rendering pipline for creating visual effects commonly used in film productions.\n\n\n\n\n\n\n\n\n\n\n\n\nThree-Dimensional Pathfinding\n\n\n\nC/C++\n\nAlgorithm and Design\n\nOpenGL\n\n\n\nA three-dimensional pathfinding program that utilizes A* and OpenGL to map the shortest path considering user-inputted obstacles.\n\n\n\n\n\n\n\n\n\n\nUnreal Engine Style Transfer Tool\n\n\n\nPython\n\nUnreal Engine\n\nPyTorch\n\nTools & Scripts\n\n\n\nA Python script that utilizes PyTorch to pre-visualize styles on assets within Unreal Engine 5 using Convolutional Neural Networks.\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "blog/third-post/index.html",
