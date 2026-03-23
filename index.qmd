@@ -8,7 +8,7 @@ about: # https://quarto.org/docs/websites/website-about.html
   links:
     - icon: file-earmark
       text: Resume
-      href: files/JacobsChristopher_Resume.pdf
+      href: files/Jacobs_Resume26.pdf
     - icon: github
       text: Github
       href: https://github.com/christopher-jacobs
