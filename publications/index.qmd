@@ -1,0 +1,11 @@
+---
+title: Publications
+format:
+  html:
+    toc: false
+---
+<div style="margin-bottom: 4rem;"></div>
+
+### [Understanding Player Dynamics in Battle Royale Environments: A Data-Driven Analysis Using the Caldera Dataset](https://doi.org/10.1145/3769047.3769054)
+Emily Port, **Christopher Jacobs**, Joseph T. Kider Jr.
+ACM SIGGRAPH Motion, Interaction and Games (MIG), 2025

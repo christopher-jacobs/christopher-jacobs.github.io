@@ -40,21 +40,6 @@ As a possible avenue for my dissertation, I am currently exploring neural infere
 
 In the preliminary stages of our work, we were able to capture and render a Gaussian Splat model of this feather using Agisoft MetsShape to export COLMAP data. In total it took three days to render, 30,000 iterations, and over one million gaussians were left to be rasterized. Not only does this show remarkable possibility, it gives us a baseline to compare our future method that bypasses COLMAP.
 
----
-
-<div style="margin-bottom: 4rem;"></div>
-
-## Publications
-
-### Understanding Player Dynamics in Battle Royale Environments: A Data-Driven Analysis Using the Caldera Dataset
-
-**Authors:** Emily Port, Christopher Jacobs, Joseph T. Kider Jr.    
-**Published:** ACM SIGGRAPH Motion, Interactive and Games (MIG) 2025    
-**Keywords:** Visualization, Computer Games, Motion Processing, Player Behavior Modeling
-
-*More information coming soon*
-
----
 
 <div style="margin-bottom: 4rem;"></div>
 
@@ -98,15 +83,3 @@ Developing real-time simulation and visualization tools for autonomous ground ve
 - **Physics-informed neural network (PINNs) framework:** Began developing a hybrid neural network model to accelerate wheeled vehicle dynamics while maintaining physical accuracy and reducing computational overhead for real-time applications (due to the project's end date, this work is left unfinished).
 
 **Technologies:** C++, Python, Unreal Engine 5, Project Chrono, PyTorch, UDP networking
-
---- 
-
-<div style="margin-bottom: 4rem;"></div>
-
-## Research Interests
-
-My research interests bridges computer graphics, computer vision, and machine learning with applications that can be used in feature films and visual effects:
-
-- **Neural Rendering:** Gaussian Splatting, novel view synthesis techniques
-- **Facial Analysis & Capture:** Facial reconstruction
-- **Material Appearance:** Subsurface scattering, real-time material rendering, BRDF analysis
