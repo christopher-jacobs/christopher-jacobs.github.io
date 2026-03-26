@@ -7,19 +7,11 @@
   categories: [C/C++, Physically-Based Simulation, Computer Graphics]
   date: 2025-05-06
 
-- title: Three-Dimensional Pathfinding
-  path: ./
-  image: ./images/three_dim.gif
-  description: >
-    A three-dimensional pathfinding program that utilizes A* and
-    OpenGL to map the shortest path considering user-inputted obstacles.
-  categories: [C/C++, Algorithm and Design, OpenGL]
-  date: 2023-05-01
-
-- title: Unreal Engine Style Transfer Tool
-  path: ./
-  description: >
-    A Python script that utilizes PyTorch to pre-visualize styles
-    on assets within Unreal Engine 5 using Convolutional Neural Networks.
-  categories: [Python, Unreal Engine, PyTorch, Tools & Scripts]
-  date: 2023-12-01
+# - title: Three-Dimensional Pathfinding
+#   path: ./three_dim/index.qmd
+#   image: ./images/three_dim.gif
+#   description: >
+#     A three-dimensional pathfinding program that utilizes A* and
+#     OpenGL to map the shortest path considering user-inputted obstacles.
+#   categories: [C/C++, Algorithm and Design, OpenGL]
+#   date: 2023-05-01
