@@ -10,10 +10,8 @@ about: # https://quarto.org/docs/websites/website-about.html
       text: Resume
       href: files/Jacobs_Resume26.pdf
     - icon: github
-      # text: Github
       href: https://github.com/christopher-jacobs
     - icon: linkedin
-      # text: LinkedIn
       href: https://www.linkedin.com/in/christopher-eugene-jacobs/
 ---
 
