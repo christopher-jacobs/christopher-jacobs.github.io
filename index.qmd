@@ -10,10 +10,10 @@ about: # https://quarto.org/docs/websites/website-about.html
       text: Resume
       href: files/Jacobs_Resume26.pdf
     - icon: github
-      text: Github
+      # text: Github
       href: https://github.com/christopher-jacobs
     - icon: linkedin
-      text: LinkedIn
+      # text: LinkedIn
       href: https://www.linkedin.com/in/christopher-eugene-jacobs/
 ---
 
@@ -25,4 +25,4 @@ I bring a unique perspective to computer graphics research, combining my compute
 
 I was originally drawn to computer graphics through my fascination with game and animation production pipelines, and I am now motivated by the opportunity to develop new tools and pioneer technologies that others will build upon. I thrive in collaborative environments, typically approaching problems from a big-picture perspective before diving into more iterative refinements.
 
-I like to balance my research with hobbies such as cooking, gardening, and staying active through weightlifting and running. I am always interested in connecting with fellow researchers and industry professionals working in related areas. You can reach me through email [here](mailto:chejac2000@gmail.com).
+I like to balance my research with hobbies such as cooking, gardening, and staying active through weightlifting and running. I am always interested in connecting with fellow researchers and industry professionals working in related areas. You can reach me through email [here](mailto:cjacob5@clemson.edu).

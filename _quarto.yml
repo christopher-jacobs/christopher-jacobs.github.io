@@ -5,7 +5,7 @@ project:
 website:
   title: "Home"
   open-graph: true # https://quarto.org/docs/websites/website-tools.html#open-graph
-  page-footer: "© 2025 Christopher Jacobs | Researcher at Clemson University"
+  page-footer: "© 2026 Christopher Jacobs | Researcher at Clemson University"
   navbar:
     search: false
     title: Christopher Jacobs
@@ -32,6 +32,7 @@ resources:
     
 format:
   html:
+    css: styles.scss
     mainfont: "monospace"
     fontsize: 20p
     theme: [cosmo, styles.scss]
