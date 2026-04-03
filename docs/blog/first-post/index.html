@@ -6,11 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Alicia">
-<meta name="dcterms.date" content="2021-05-22">
-<meta name="description" content="Post description for first post">
+<meta name="dcterms.date" content="2026-04-03">
+<meta name="description" content="Explaining how I created this portfolio website using Quarto, a static site generator.">
 
-<title>First Post – Home</title>
+<title>Creating a Website using Quarto – Home</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -22,6 +21,41 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -42,7 +76,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-2fef5ea3f8957b3e4ecc936fc74692ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-c2d50cb321c8b4c0c7b118d955c1544d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-f615e2f7b816b7cc0732772860c95e93.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -73,9 +107,9 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../../styles.scss">
-<meta property="og:title" content="First Post – Home">
-<meta property="og:description" content="Post description for first post">
-<meta property="og:image" content="cover.jpg">
+<meta property="og:title" content="Creating a Website using Quarto – Home">
+<meta property="og:description" content="Explaining how I created this portfolio website using Quarto, a static site generator.">
+<meta property="og:image" content="quarto_cover_image.png">
 <meta property="og:site_name" content="Home">
 </head>
 
@@ -111,6 +145,10 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="../../publications/index.html"> 
 <span class="menu-text">Publications</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../blog/index.html"> 
+<span class="menu-text">Blog</span></a>
+  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -128,33 +166,27 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">First Post</h1>
+<h1 class="title">Creating a Website using Quarto</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">Science</div>
     <div class="quarto-category">Technology</div>
+    <div class="quarto-category">Web Development</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    Post description for first post
+    <p>Explaining how I created this portfolio website using Quarto, a static site generator.</p>
   </div>
 </div>
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Alicia </p>
-          </div>
-  </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">May 22, 2021</p>
+      <p class="date">April 3, 2026</p>
     </div>
   </div>
   
@@ -166,11 +198,43 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Sed risus ultricies tristique nulla aliquet. Neque volutpat ac tincidunt vitae semper quis lectus nulla.</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim sed faucibus turpis in eu mi bibendum neque. Ac orci phasellus egestas tellus rutrum tellus pellentesque eu. Velit sed ullamcorper morbi tincidunt ornare massa. Sagittis id consectetur purus ut faucibus pulvinar elementum integer. Tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada proin libero. Lobortis feugiat vivamus at augue eget arcu. Aliquam ut porttitor leo a diam sollicitudin tempor id eu. Mauris a diam maecenas sed enim ut sem viverra aliquet. Enim ut tellus elementum sagittis vitae et leo duis. Molestie at elementum eu facilisis sed odio morbi quis commodo. Sapien pellentesque habitant morbi tristique senectus. Quam vulputate dignissim suspendisse in est. Nulla pellentesque dignissim enim sit amet venenatis urna cursus eget.</p>
-<p>Velit aliquet sagittis id consectetur purus ut faucibus pulvinar elementum. Viverra mauris in aliquam sem fringilla ut morbi tincidunt augue. Tortor at auctor urna nunc id. Sit amet consectetur adipiscing elit duis tristique sollicitudin. Aliquet nibh praesent tristique magna sit amet purus. Tristique senectus et netus et malesuada fames ac turpis. Hac habitasse platea dictumst quisque. Auctor neque vitae tempus quam pellentesque nec nam aliquam. Ultrices tincidunt arcu non sodales neque sodales ut etiam. Iaculis at erat pellentesque adipiscing. Cras tincidunt lobortis feugiat vivamus. Nisi est sit amet facilisis magna etiam. Pharetra pharetra massa massa ultricies mi quis hendrerit. Vitae sapien pellentesque habitant morbi tristique senectus. Ornare aenean euismod elementum nisi quis eleifend quam adipiscing vitae.</p>
+<div style="display: grid; grid-template-columns: 1fr;">
+  <div>
+    <img src="./quarto_cover_image.png" style="width: 100%;">
+  </div>
+</div>
+
+<div style="margin-bottom: 2rem;"></div>
+<section id="why-quarto" class="level2">
+<h2 class="anchored" data-anchor-id="why-quarto">Why Quarto?</h2>
+<p>When I originally started to create my portfolio website, I tested a variety of site builders for simplicity (Wix Website Builder, Squarespace, etc.). Though it was an easy setup to get started, I despised how restrictive the site builders were in terms of limiting creativity. On the other hand, it has been several years since programming with HTML and CSS in undergrad, and it would be a daunting task to create an entire website from scratch. My colleague and friend <a href="https://www.emilyport.com/">Emily Port</a> (check her out; she is amazing and incredibly intelligent) told me how she built her website using static site generators (SSG). Her website utilizes an SSG called <a href="https://gohugo.io/">Hugo</a>, but while doing some more research, some developers discussed how they were moving away from Hugo and instead using <a href="https://quarto.org/">Quarto</a>. As someone who has not worked with either of these frameworks, I decided to go with Quarto, as people described the setup and rendering process as simple and easy to update.</p>
+</section>
+<section id="getting-started" class="level2">
+<h2 class="anchored" data-anchor-id="getting-started">Getting Started</h2>
+<p>The workflow itself isn’t that hard to follow, thankfully, especially with the <a href="https://quarto.org/docs/websites/">guide</a> they have on their website and the <a href="https://www.youtube.com/watch?v=l7r24gTEkEY">video</a> tutorials they have on YouTube.</p>
+<p>Each page is mainly going to have two files: a Quarto Markdown Document (qmd) file where you can insert detailed documentation and a YML file that configures the frontmatter and website options for each page. To customize the pages, you can include a Sassy CSS (SCSS) file to program attributes such as font type, color themes, and special decorators.</p>
+<p>Before previewing the website, you will need to render the page first using the render command:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> render</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>You can also render specific files instead of the entire directory by specifying the file after the render keyword. After rendering the pages, you are able to preview the website on a local host using the following:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> preview</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>I recommend checking out their page of tutorials and tips to integrate how to implement website attributes, including navigation and tools.</p>
+</section>
+<section id="challenge-customizing-pages" class="level2">
+<h2 class="anchored" data-anchor-id="challenge-customizing-pages">Challenge: Customizing Pages</h2>
+<p>The main challenge that I faced when customizing the website was being restricted by the original template. I think the template is great as a starting foundation, but as I added more information, I brainstormed ideas of how I wanted to display certain items and was inevitably roadblocked by the template. Even though you are able to manipulate the pages within the markdown files, the rendering command is responsible for creating the HTML output. All I had to do then was figure out how to inject code snippets within the files so that the rendering command would input the code into the HTML files.</p>
+<p>Thankfully, this was simpler than I could have imagined to implement. For instance, I inserted the above bash commands but used this syntax:</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="in">INJECT CODE HERE</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Using this feature, I am able to insert HTML code into the markdown files to customize pages more freely. For instance, this is how I was able to implement my carousel image feature in the <a href="../../projects/volume/index.html">Physically-Based Visual Effects</a> project page. This makes me excited to pick up HTML and CSS once again to hopefully add more cool features in the future.</p>
+</section>
+<section id="deploying-the-website-using-github-pages" class="level2">
+<h2 class="anchored" data-anchor-id="deploying-the-website-using-github-pages">Deploying the Website using GitHub Pages</h2>
+<p>To host the site, I use <a href="https://docs.github.com/en/pages">GitHub Pages</a> which was surprisingly a lot simpler than I initially imagined to deploy the website. There are multiple ways that you can publish the files to GitHub Pages. I chose to render the files on my local machine and then configure a GitHub repository to publish that directory every time I update the render. By just adding the directory to the root YAML file, I can commit new changes to the GitHub repository, push the updated files, and then the changes are reflected on the site within a matter of minutes.</p>
+<p>Overall, as someone who was initially scared of web development and the idea that I needed to be an expert in multiple programming languages and frameworks, Quarto helped me realize that there are more simple alternatives while not sacrificing creative freedoms. Go check out Quarto or other SSG frameworks if you want to start exploring web development.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

@@ -18,8 +18,8 @@ website:
         text: Research
       - href: publications/index.qmd
         text: Publications
-      # - href: blog/index.qmd
-      #   text: Blog
+      - href: blog/index.qmd
+        text: Blog
       # - href: art/index.qmd
       #   text: Art/Media
 

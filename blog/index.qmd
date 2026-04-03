@@ -2,5 +2,9 @@
 title: Blog
 listing: 
   contents: /
-  type: grid
+  sort: "date desc"
+  type: default
+  max-description-length: 250
+  fields: [title, image, description, categories]
+  categories: false
 ---

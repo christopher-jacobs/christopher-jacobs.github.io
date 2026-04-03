@@ -100,3 +100,18 @@ body .quarto-about-trestles .about-link:not(:first-child) {
 body .quarto-about-trestles .about-link:not(:first-child) i {
   margin-left: 4px; /* increase or decrease until it looks right */
 }
+
+/* Changing the color of the description text to theme-green */
+.quarto-listing-default .quarto-post .body .listing-description .no-external{
+    color: $theme-green;
+}
+
+/* Keeping color consistency within blog posts */
+.description {
+    color: $theme-green;
+}
+
+/* Giving more margins to the categories on the blog */
+.quarto-listing-default .quarto-post .body .listing-categories{
+    margin-top: 0.5rem;
+}
