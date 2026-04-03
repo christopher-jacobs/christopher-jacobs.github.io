@@ -39,7 +39,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-2fef5ea3f8957b3e4ecc936fc74692ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-340bb3587effd9120d57bb0c85e69925.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-c2d50cb321c8b4c0c7b118d955c1544d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -72,6 +72,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../../styles.scss">
 <meta property="og:title" content="Three-Dimensional A* Pathfinder – Home">
 <meta property="og:description" content="">
+<meta property="og:image" content="./images/three_dim.gif">
 <meta property="og:site_name" content="Home">
 </head>
 
@@ -141,23 +142,41 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div style="margin-bottom: 4rem;">
+<div style="margin-bottom: 3rem;">
+
+</div>
+<div style="display: grid; grid-template-columns: 1fr;">
+  <div>
+    <img src="./images/three_dim.gif" style="width: 100%;">
+    <p class="image-caption">Three Dimensional Pathfinding Demo</p>
+  </div>
+</div>
+
+<div style="margin-bottom: 2rem;"></div>
+ 
+  <button class="github_button" onclick="window.location.href = 'https://github.com/christopher-jacobs/3D_AStar';">
+    <i class="bi bi-github"></i>&nbsp; View on GitHub
+
+  </button>
+
+<div style="margin-bottom: 3rem;">
 
 </div>
 <section id="project-overview" class="level2">
 <h2 class="anchored" data-anchor-id="project-overview">Project Overview</h2>
-<p><strong>Technologies:</strong></p>
-<div style="margin-bottom: 4rem;">
+<p>When initially researching motion planning tools developed within Unreal Engine 4.27 at the time (2023), I noticed that there was a significant lack of free plugins available. I decided to utilize the opportunity and familiarize myself with C++ by designing and implementing this project. I developed a three-dimensional pathfinding tool to help visualize motion paths for autonomous agents.</p>
+<p>For this project, I utilized C++ and Legacy OpenGL to develop and visualize the application. The start and end goals are predefined, but as the user, you are able to define the location and radius of objects within the voxel space. I utilized voxel octrees to parse through the voxel space in a computationally effective manner. Once the obstacles have been placed, the user can then define the roadmap and finally activate A* to locate the shortest path from the start to the goal.</p>
+<p><strong>Technologies:</strong> C++, Legacy OpenGL, GLUT</p>
+<div style="margin-bottom: 3rem;">
 
 </div>
 </section>
 <section id="technical-implementation" class="level2">
 <h2 class="anchored" data-anchor-id="technical-implementation">Technical Implementation</h2>
-<p>[]. Key technical components include:</p>
 <ul>
-<li></li>
-<li></li>
-<li></li>
+<li><p><strong>A* Algorithm:</strong> The user is able to place spherical objects with different radi at different locations within the grid. Once they are satisfied, a roadmap will be created using the voxels that have obstacles identified. Using their vertices, the A* algorithm will parse through the roadmap to find the shortest path possible.</p></li>
+<li><p><strong>Voxel Octrees:</strong> I want to balance the ability to visualize the obstacles, voxels, roadmap, and path with computational efficiency. Therefore, I leveraged a voxel octree data structure to represent the 3D regions, similarly to tree data structures.</p></li>
+<li><p><strong>OpenGL/GLUT:</strong> To visualize the scene I used OpenGL and GLUT tools. Using multiple methods and keyboard controls, I updated the viewing buffers with transformation matrices for the camera so the user can have a 360° view of the scene.</p></li>
 </ul>
 <div style="margin-bottom: 4rem;">
 
@@ -165,7 +184,44 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="gallery" class="level2">
 <h2 class="anchored" data-anchor-id="gallery">Gallery</h2>
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;">
+
+  <div>
+    <img src="./images/base_scene.png" alt="Base Scene" style="width: 100%;">
+    <p class="image-caption">Base Scene</p>
+  </div>
+
+  <div>
+    <img src="./images/ob_vox.png" alt="Obstacles &amp; Voxels" style="width: 100%;">
+    <p class="image-caption">Obstacles &amp; Voxels</p>
+  </div>
+
+  <div>
+    <img src="./images/roadmap.png" alt="Completed Roadmap" style="width: 100%;">
+    <p class="image-caption">Completed Roadmap</p>
+  </div>
+
+  <div>
+    <img src="./images/path.png" alt="Calcualted Path" style="width: 100%;">
+    <p class="image-caption">Calculated Path</p>
+  </div>
+
+</div>
 <div style="margin-bottom: 4rem;">
+
+</div>
+</section>
+<section id="future-work" class="level2">
+<h2 class="anchored" data-anchor-id="future-work">Future Work</h2>
+<ul>
+<li>Add Windows and MacOS capabilities to build and execute the repository.</li>
+<li>Extend the final path to interpolate using a spline or bezier curve for a better, more realistic simulation.</li>
+<li>Include animation of an object using the path interpolation to show proof of concept.</li>
+<li>Research further to make the program more computationally efficient.</li>
+<li>Explore modern OpenGL.</li>
+<li>Possibly look at integrating the tool within Unreal Engine.</li>
+</ul>
+<div style="margin-bottom: 3rem;">
 
 </div>
 

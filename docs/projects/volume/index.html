@@ -39,7 +39,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-2fef5ea3f8957b3e4ecc936fc74692ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-340bb3587effd9120d57bb0c85e69925.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-c2d50cb321c8b4c0c7b118d955c1544d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -72,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../../styles.scss">
 <meta property="og:title" content="Physically-Based Volumetric Renderer – Home">
 <meta property="og:description" content="">
-<meta property="og:image" content="../images/noise_slice.gif">
+<meta property="og:image" content="./images/noise_slice.gif">
 <meta property="og:site_name" content="Home">
 <meta property="og:image:alt" content="Noise Slice">
 </head>
@@ -158,9 +158,9 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="technical-implementation">Technical Implementation</h2>
 <p>The rendering pipeline utilizes a multithreaded ray marching approach with physically-based scattering and shadowing models. Key technical components include:</p>
 <ul>
-<li><strong>Flexible rendering:</strong> Users can render within a sparse grid for bounded rendering or utilize unbounded volume evaluation depending on production requirements</li>
-<li><strong>Dual ray marcher architecture:</strong> Separate ray marchers to evaluate deep shadow maps and render volumetric features, enabling physically-accurate light with shadow and scattering properties.</li>
-<li><strong>Adaptive step-size optimization:</strong> Dynamic step adjustment to balance performance optimization with rendering quality</li>
+<li><p><strong>Flexible rendering:</strong> Users can render within a sparse grid for bounded rendering or utilize unbounded volume evaluation depending on production requirements.</p></li>
+<li><p><strong>Dual ray marcher architecture:</strong> Separate ray marchers to evaluate deep shadow maps and render volumetric features, enabling physically-accurate light with shadow and scattering properties.</p></li>
+<li><p><strong>Adaptive step-size optimization:</strong> Dynamic step adjustment to balance performance optimization with rendering quality</p></li>
 </ul>
 <div style="margin-bottom: 4rem;">
 
@@ -178,7 +178,7 @@ ul.task-list li input[type="checkbox"] {
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;">
 
   <div>
-    <img src="../images/noise_slice.gif" alt="Noise Slice" style="width: 100%;">
+    <img src="./images/noise_slice.gif" alt="Noise Slice" style="width: 100%;">
     <p class="image-caption">Fractal-Sum Noise Slice</p>
   </div>
 
@@ -187,13 +187,13 @@ ul.task-list li input[type="checkbox"] {
       
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="../images/noise_ff_1.png" class="d-block w-100">
+          <img src="./images/noise_ff_1.png" class="d-block w-100">
         </div>
         <div class="carousel-item">
-          <img src="../images/noise_ff_2.png" class="d-block w-100">
+          <img src="./images/noise_ff_2.png" class="d-block w-100">
         </div>
         <div class="carousel-item">
-          <img src="../images/noise_ff_3.png" class="d-block w-100">
+          <img src="./images/noise_ff_3.png" class="d-block w-100">
         </div>
       </div>
       <p class="image-caption">Fractal-Sum Noise Freeze Frames</p>
@@ -216,20 +216,20 @@ ul.task-list li input[type="checkbox"] {
 <p>Pyroclastic noise fields combined with implicit functions using iterative closest-point to create trailing smoke, cloud formations, and explosive noise.</p>
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;">
   <div>
-    <img src="../images/pyro_slice.gif" alt="Pyroclastic Slice" style="width: 100%;">
+    <img src="./images/pyro_slice.gif" alt="Pyroclastic Slice" style="width: 100%;">
     <p class="image-caption">Pyroclastic Sphere Slice</p>
   </div>
   <div>
     <div id="pyroCarousel" class="carousel slide">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="../images/pyro_ff_1.png" class="d-block w-100">
+          <img src="./images/pyro_ff_1.png" class="d-block w-100">
         </div>
         <div class="carousel-item">
-          <img src="../images/pyro_ff_2.png" class="d-block w-100">
+          <img src="./images/pyro_ff_2.png" class="d-block w-100">
         </div>
         <div class="carousel-item">
-          <img src="../images/pyro_ff_3.png" class="d-block w-100">
+          <img src="./images/pyro_ff_3.png" class="d-block w-100">
         </div>
       </div>
       <p class="image-caption">Pyroclastic Sphere Freeze Frames</p>
@@ -248,20 +248,20 @@ ul.task-list li input[type="checkbox"] {
 <p>Particle-based volume generation where millions of particles are stamped and baked into a density grid to create wispy, flowing volumes. These particles can also be constrained to spline paths and contribute to water-like or magical effects.</p>
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;">
   <div>
-    <img src="../images/wisp_slice.gif" alt="Wisp Slice" style="width: 100%;">
+    <img src="./images/wisp_slice.gif" alt="Wisp Slice" style="width: 100%;">
     <p class="image-caption">Wisp Slice</p>
   </div>
   <div>
     <div id="wispCarousel" class="carousel slide">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="../images/wisp_ff_1.png" class="d-block w-100">
+          <img src="./images/wisp_ff_1.png" class="d-block w-100">
         </div>
         <div class="carousel-item">
-          <img src="../images/wisp_ff_2.png" class="d-block w-100">
+          <img src="./images/wisp_ff_2.png" class="d-block w-100">
         </div>
         <div class="carousel-item">
-          <img src="../images/wisp_ff_3.png" class="d-block w-100">
+          <img src="./images/wisp_ff_3.png" class="d-block w-100">
         </div>
       </div>
       <p class="image-caption">Wisp Freeze Frames</p>

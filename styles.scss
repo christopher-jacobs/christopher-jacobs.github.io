@@ -6,7 +6,6 @@
 $theme-black: black;
 $theme-green: #54B678;
 $theme-white: #F7FFF7;
-$theme-purple: #6C0F4B;
 
 
 /* Colors */
@@ -25,6 +24,19 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar * {
     color: $theme-black;
+}
+
+/*-- Button links to GitHub Repos --*/
+.github_button {
+    background-color: $theme-green;
+    border: none;
+    color: $theme-white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 4px;
 }
 
 span.navbar-title {

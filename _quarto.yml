@@ -27,9 +27,9 @@ resources:
   - "files/"
   - "*.pdf"
   - "JacobsChristopher_Resume.pdf"
+  - "projects/volume/images/**"
   - "projects/images/**"
   - "research/images/**"
-  - "images/"
     
 format:
   html:

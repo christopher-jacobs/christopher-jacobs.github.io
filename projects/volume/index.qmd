@@ -21,8 +21,10 @@ I developed a physically-accurate volumetric rendering system in C++ for creatin
 ## Technical Implementation
 The rendering pipeline utilizes a multithreaded ray marching approach with physically-based scattering and shadowing models. Key technical components include:
 
-- **Flexible rendering:** Users can render within a sparse grid for bounded rendering or utilize unbounded volume evaluation depending on production requirements
+- **Flexible rendering:** Users can render within a sparse grid for bounded rendering or utilize unbounded volume evaluation depending on production requirements.
+
 - **Dual ray marcher architecture:** Separate ray marchers to evaluate deep shadow maps and render volumetric features, enabling physically-accurate light with shadow and scattering properties.
+
 - **Adaptive step-size optimization:** Dynamic step adjustment to balance performance optimization with rendering quality
 
 <div style="margin-bottom: 4rem;"></div>
@@ -42,7 +44,7 @@ Perlin Noise that can be modified and animated to mimick nature known as Fractal
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;">
 
   <div>
-    <img src="../images/noise_slice.gif" alt="Noise Slice" style="width: 100%;">
+    <img src="./images/noise_slice.gif" alt="Noise Slice" style="width: 100%;">
     <p class= "image-caption">Fractal-Sum Noise Slice</p>
   </div>
 
@@ -51,13 +53,13 @@ Perlin Noise that can be modified and animated to mimick nature known as Fractal
       
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="../images/noise_ff_1.png" class="d-block w-100">
+          <img src="./images/noise_ff_1.png" class="d-block w-100">
         </div>
         <div class="carousel-item">
-          <img src="../images/noise_ff_2.png" class="d-block w-100">
+          <img src="./images/noise_ff_2.png" class="d-block w-100">
         </div>
         <div class="carousel-item">
-          <img src="../images/noise_ff_3.png" class="d-block w-100">
+          <img src="./images/noise_ff_3.png" class="d-block w-100">
         </div>
       </div>
       <p class= "image-caption">Fractal-Sum Noise Freeze Frames</p>
@@ -83,20 +85,20 @@ Pyroclastic noise fields combined with implicit functions using iterative closes
 ```{=html}
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;">
   <div>
-    <img src="../images/pyro_slice.gif" alt="Pyroclastic Slice" style="width: 100%;">
+    <img src="./images/pyro_slice.gif" alt="Pyroclastic Slice" style="width: 100%;">
     <p class= "image-caption">Pyroclastic Sphere Slice</p>
   </div>
   <div>
     <div id="pyroCarousel" class="carousel slide">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="../images/pyro_ff_1.png" class="d-block w-100">
+          <img src="./images/pyro_ff_1.png" class="d-block w-100">
         </div>
         <div class="carousel-item">
-          <img src="../images/pyro_ff_2.png" class="d-block w-100">
+          <img src="./images/pyro_ff_2.png" class="d-block w-100">
         </div>
         <div class="carousel-item">
-          <img src="../images/pyro_ff_3.png" class="d-block w-100">
+          <img src="./images/pyro_ff_3.png" class="d-block w-100">
         </div>
       </div>
       <p class= "image-caption">Pyroclastic Sphere Freeze Frames</p>
@@ -118,20 +120,20 @@ Particle-based volume generation where millions of particles are stamped and bak
 ```{=html}
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;">
   <div>
-    <img src="../images/wisp_slice.gif" alt="Wisp Slice" style="width: 100%;">
+    <img src="./images/wisp_slice.gif" alt="Wisp Slice" style="width: 100%;">
     <p class= "image-caption">Wisp Slice</p>
   </div>
   <div>
     <div id="wispCarousel" class="carousel slide">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="../images/wisp_ff_1.png" class="d-block w-100">
+          <img src="./images/wisp_ff_1.png" class="d-block w-100">
         </div>
         <div class="carousel-item">
-          <img src="../images/wisp_ff_2.png" class="d-block w-100">
+          <img src="./images/wisp_ff_2.png" class="d-block w-100">
         </div>
         <div class="carousel-item">
-          <img src="../images/wisp_ff_3.png" class="d-block w-100">
+          <img src="./images/wisp_ff_3.png" class="d-block w-100">
         </div>
       </div>
       <p class= "image-caption">Wisp Freeze Frames</p>

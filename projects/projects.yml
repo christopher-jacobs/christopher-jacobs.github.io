@@ -1,17 +1,17 @@
 - title: Physically-Based Volumetric Renderer
   path: ./volume/index.qmd
-  image : ./images/wisp_slice.gif
+  image : ./volume/images/wisp_slice.gif
   description: >
     A physically-accurate volumetric rendering pipline for creating
     visual effects commonly used in film productions.
   categories: [C/C++, Physically-Based Simulation, Computer Graphics]
   date: 2025-05-06
 
-# - title: Three-Dimensional Pathfinding
-#   path: ./three_dim/index.qmd
-#   image: ./images/three_dim.gif
-#   description: >
-#     A three-dimensional pathfinding program that utilizes A* and
-#     OpenGL to map the shortest path considering user-inputted obstacles.
-#   categories: [C/C++, Algorithm and Design, OpenGL]
-#   date: 2023-05-01
+- title: Three-Dimensional Pathfinding
+  path: ./three_dim/index.qmd
+  image: ./three_dim/images/three_dim.gif
+  description: >
+    A three-dimensional pathfinding program that utilizes A* and
+    OpenGL to map the shortest path considering user-inputted obstacles.
+  categories: [C/C++, Algorithm and Design, OpenGL]
+  date: 2023-05-01
