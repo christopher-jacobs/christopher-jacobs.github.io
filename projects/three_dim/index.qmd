@@ -18,10 +18,9 @@ format:
 
 <div style="margin-bottom: 2rem;"></div>
  
-  <button class="github_button" onclick="window.location.href = 'https://github.com/christopher-jacobs/3D_AStar';">
-    <i class = "bi bi-github"></i>&nbsp; View on GitHub
-
-  </button>
+<button class="github_button" onclick="window.location.href = 'https://github.com/christopher-jacobs/3D_AStar';">
+  <i class = "bi bi-github"></i>&nbsp; View on GitHub
+</button>
 
 ```
 

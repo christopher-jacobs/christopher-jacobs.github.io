@@ -6,9 +6,24 @@ format:
 ---
 
 
-<div style="margin-bottom: 4rem;"></div>
+<div style="margin-bottom: 3rem;"></div>
 
+```{=html}
+<div style="display: grid; grid-template-columns: 1fr;">
+  <div>
+    <img src="./images/pyro_slice.gif" style="width: 100%;">
+    <p class= "image-caption">Three Dimensional Pathfinding Demo</p>
+  </div>
+</div>
 
+<div style="margin-bottom: 2rem;"></div>
+
+<button class="github_button" onclick="window.location.href = 'https://github.com/christopher-jacobs/PhysicallyBasedVisualEffects';">
+  <i class = "bi bi-github"></i>&nbsp; View on GitHub
+</button>
+```
+
+<div style="margin-bottom: 3rem;"></div>
 
 ## Project Overview
 
