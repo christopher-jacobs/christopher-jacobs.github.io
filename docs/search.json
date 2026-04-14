@@ -1,10 +1,17 @@
 [
   {
+    "objectID": "research/index.html",
+    "href": "research/index.html",
+    "title": "Research",
+    "section": "",
+    "text": "Feather Gaussian Splat (30k iterations)\n  \n  \n    \n        \n        Your browser does not support the video tag.\n    \n    Gaussian Splat Full View\n  \n  \n    \n    Variable Illumination Sphere (VarIS)\n  \n\n\n\n\nAdvisor: Dr. Eric Patterson | Clemson University\nTopics: Gaussian Splatting, Machine Learning, Material Capture, Facial Analysis\n\n\n\nAs a possible avenue for my dissertation, I am currently exploring neural inference techniques to improve vertex initialization in 3D Gaussian Splatting for facial and object reconstruction. This work focuses on leveraging multi-view feature detection to establish consistent point correspondences without the need for COLMAP algorithms that could be too expensive or incorrect.\nIn the preliminary stages of our work, we were able to capture and render a Gaussian Splat model of this feather using Agisoft MetsShape to export COLMAP data. In total it took three days to render, 30,000 iterations, and over one million gaussians were left to be rasterized. Not only does this show remarkable possibility, it gives us a baseline to compare our future method that bypasses COLMAP."
+  },
+  {
     "objectID": "research/index.html#current-research",
     "href": "research/index.html#current-research",
     "title": "Research",
-    "section": "Current Research",
-    "text": "Current Research\n\nNeural Rendering for Object Capture and Analysis\n\n  \n    \n    Feather Gaussian Splat (30k iterations)\n  \n  \n    \n        \n        Your browser does not support the video tag.\n    \n    Gaussian Splat Full View\n  \n  \n    \n    Variable Illumination Sphere (VarIS)\n  \n\n\n\n\nAdvisor: Dr. Eric Patterson | Clemson University\nTopics: Gaussian Splatting, Machine Learning, Material Capture, Facial Analysis\n\n\n\nAs a possible avenue for my dissertation, I am currently exploring neural inference techniques to improve vertex initialization in 3D Gaussian Splatting for facial and object reconstruction. This work focuses on leveraging multi-view feature detection to establish consistent point correspondences without the need for COLMAP algorithms that could be too expensive or incorrect.\nIn the preliminary stages of our work, we were able to capture and render a Gaussian Splat model of this feather using Agisoft MetsShape to export COLMAP data. In total it took three days to render, 30,000 iterations, and over one million gaussians were left to be rasterized. Not only does this show remarkable possibility, it gives us a baseline to compare our future method that bypasses COLMAP."
+    "section": "",
+    "text": "Feather Gaussian Splat (30k iterations)\n  \n  \n    \n        \n        Your browser does not support the video tag.\n    \n    Gaussian Splat Full View\n  \n  \n    \n    Variable Illumination Sphere (VarIS)\n  \n\n\n\n\nAdvisor: Dr. Eric Patterson | Clemson University\nTopics: Gaussian Splatting, Machine Learning, Material Capture, Facial Analysis\n\n\n\nAs a possible avenue for my dissertation, I am currently exploring neural inference techniques to improve vertex initialization in 3D Gaussian Splatting for facial and object reconstruction. This work focuses on leveraging multi-view feature detection to establish consistent point correspondences without the need for COLMAP algorithms that could be too expensive or incorrect.\nIn the preliminary stages of our work, we were able to capture and render a Gaussian Splat model of this feather using Agisoft MetsShape to export COLMAP data. In total it took three days to render, 30,000 iterations, and over one million gaussians were left to be rasterized. Not only does this show remarkable possibility, it gives us a baseline to compare our future method that bypasses COLMAP."
   },
   {
     "objectID": "research/index.html#research-experience",

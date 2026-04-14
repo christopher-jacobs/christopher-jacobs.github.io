@@ -344,14 +344,17 @@ section {
     }
 }
 
-footer {
-    nav {
-        ul {
-            li {
+$mobile-breakpoint: 480px;
 
-            }
-        }
+.footer-nav-icons {
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    gap: 1rem;
+
+    @media (max-width: $mobile-breakpoint) {
+        justify-items: center;
+        justify-content: space-between;
+        flex-direction: column;
     }
 }
-
-// div style="display: flex:justify-itmes: center;justify-content: space-between;flex-direction: column;"
