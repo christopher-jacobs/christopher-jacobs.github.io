@@ -4,6 +4,7 @@ project:
 
 website:
   title: "Home"
+  google-analytics: "G-RX5RKNN2C2"
   open-graph: true # https://quarto.org/docs/websites/website-tools.html#open-graph
   page-footer: "© 2026 Christopher Jacobs | Researcher at Clemson University"
   navbar:
