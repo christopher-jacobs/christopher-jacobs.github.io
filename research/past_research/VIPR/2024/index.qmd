@@ -1,0 +1,21 @@
+---
+title: Extensible Real-Time Prototyping Framework within Unreal Engine
+include-after-body: ../../../../utils/footer_nav.html
+format:
+  html:
+    toc: false
+---
+
+### Extensible Real-Time Prototyping Framework within Unreal Engine
+**Research Assistant** | February 2024 - February 2025
+**Project:** VIPR-GS (Virtual Prototyping of Autonomy-Enabled Ground Systems)
+**Collaborators:** Dr. Eric Patterson
+
+Developing real-time simulation and visualization tools for autonomous ground vehicle prototyping, briding high-fidelity physics simulation with interactive 3D environments.  
+
+**Technical Contributions:**  
+
+- **Middleware architecture:** Designed and implemented C++ and Python mideleware, enabling bidirectional communication between Project Chrono and Unreal Engine via UDP protocol.
+- **Physics-informed neural network (PINNs) framework:** Began developing a hybrid neural network model to accelerate wheeled vehicle dynamics while maintaining physical accuracy and reducing computational overhead for real-time applications (due to the project's end date, this work is left unfinished).
+
+**Technologies:** C++, Python, Unreal Engine 5, Project Chrono, PyTorch, UDP networking

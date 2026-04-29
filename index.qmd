@@ -2,6 +2,7 @@
 title: "Christopher Jacobs"
 subtitle: "PhD Student | Visual Computing Researcher"
 image: chris-headshot.jpg
+include-after-body: utils/home_carousel.html
 about: # https://quarto.org/docs/websites/website-about.html
   template: trestles
   image-shape: round

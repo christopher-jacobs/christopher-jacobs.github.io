@@ -1,5 +1,6 @@
 ---
 title: Publications
+include-after-body: ../utils/footer_nav.html
 format:
   html:
     toc: false

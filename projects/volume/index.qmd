@@ -1,5 +1,6 @@
 ---
 title: "Physically-Based Volumetric Renderer"
+include-after-body: ../../utils/footer_nav.html
 format:
   html:
     toc: false
@@ -12,7 +13,7 @@ format:
 <div style="display: grid; grid-template-columns: 1fr;">
   <div>
     <img src="./images/pyro_slice.gif" style="width: 100%;">
-    <p class= "image-caption">Three Dimensional Pathfinding Demo</p>
+    <p class= "image-caption">Pyroclastic Sphere Wedge</p>
   </div>
 </div>
 
@@ -31,8 +32,6 @@ I developed a physically-accurate volumetric rendering system in C++ for creatin
 
 **Technologies:** C++, OpenImageIO, OpenEXR, SWIG
 
-<div style="margin-bottom: 4rem;"></div>
-
 ## Technical Implementation
 The rendering pipeline utilizes a multithreaded ray marching approach with physically-based scattering and shadowing models. Key technical components include:
 
@@ -42,13 +41,9 @@ The rendering pipeline utilizes a multithreaded ray marching approach with physi
 
 - **Adaptive step-size optimization:** Dynamic step adjustment to balance performance optimization with rendering quality
 
-<div style="margin-bottom: 4rem;"></div>
-
 ## Gallery
 
 Below are three core effects that demonstrate the renderer's capabilities with implicit volumes and procedural noise:
-
-<div style="margin-bottom: 4rem;"></div>
 
 
 ### Fractal-Summed Perlin Noise
@@ -56,7 +51,7 @@ Below are three core effects that demonstrate the renderer's capabilities with i
 Perlin Noise that can be modified and animated to mimick nature known as Fractal-Sum Perlin Noise. Includes modifiable parameters such as frequency, amplitude, roughness, frequency jump, and octaves to create more complex effects.
 
 ```{=html}
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;">
+<div class="two_image_diagram">
 
   <div>
     <img src="./images/noise_slice.gif" alt="Noise Slice" style="width: 100%;">
@@ -98,7 +93,7 @@ Perlin Noise that can be modified and animated to mimick nature known as Fractal
 Pyroclastic noise fields combined with implicit functions using iterative closest-point to create trailing smoke, cloud formations, and explosive noise.
 
 ```{=html}
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;">
+<div class="two_image_diagram">
   <div>
     <img src="./images/pyro_slice.gif" alt="Pyroclastic Slice" style="width: 100%;">
     <p class= "image-caption">Pyroclastic Sphere Slice</p>
@@ -133,7 +128,7 @@ Pyroclastic noise fields combined with implicit functions using iterative closes
 Particle-based volume generation where millions of particles are stamped and baked into a density grid to create wispy, flowing volumes. These particles can also be constrained to spline paths and contribute to water-like or magical effects.
 
 ```{=html}
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;">
+<div class="two_image_diagram">
   <div>
     <img src="./images/wisp_slice.gif" alt="Wisp Slice" style="width: 100%;">
     <p class= "image-caption">Wisp Slice</p>

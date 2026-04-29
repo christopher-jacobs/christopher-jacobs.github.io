@@ -1,0 +1,13 @@
+---
+title: Tracked Vehicle Simulations in Unreal Engine 5 and Project Chrono
+include-after-body: ../../../../utils/footer_nav.html
+format:
+  html:
+    toc: false
+---
+
+**Research Assistant** | January 2025 - September 2025   
+**Project:** VIPR-GS (Virtual Prototyping of Autonomy-Enabled Ground Systems)   
+**Collaborators:** Dr. Eric Patterson, Dr. Gregory Mocko, William Luttrell
+
+This work continues research with Project Chrono and Unreal Engine implementations to extend the technology towards tracked vehicle analysis.

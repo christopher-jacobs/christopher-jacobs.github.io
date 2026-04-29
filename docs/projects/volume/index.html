@@ -39,7 +39,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-2fef5ea3f8957b3e4ecc936fc74692ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-a5cc8600ce7a06a5806d59fd71038c71.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-d10d180b200fa4b4b9654e820b9961d1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -110,7 +110,7 @@ gtag('config', 'G-RX5RKNN2C2', { 'anonymize_ip': true});
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../research/index.html"> 
+    <a class="nav-link" href="../../research/current_research/index.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
@@ -161,7 +161,7 @@ gtag('config', 'G-RX5RKNN2C2', { 'anonymize_ip': true});
 <div style="display: grid; grid-template-columns: 1fr;">
   <div>
     <img src="./images/pyro_slice.gif" style="width: 100%;">
-    <p class="image-caption">Three Dimensional Pathfinding Demo</p>
+    <p class="image-caption">Pyroclastic Sphere Wedge</p>
   </div>
 </div>
 
@@ -177,9 +177,6 @@ gtag('config', 'G-RX5RKNN2C2', { 'anonymize_ip': true});
 <h2 class="anchored" data-anchor-id="project-overview">Project Overview</h2>
 <p>I developed a physically-accurate volumetric rendering system in C++ for creating visual effects commonly used in feature film production. The pipeline utilizes a ray marching algorithm to evaluate implicit volumes and deep shadow maps, generating realistic atmospheric effects including noise clouds, pyroclastic volumes, wisps, terrain elements, and level sets.</p>
 <p><strong>Technologies:</strong> C++, OpenImageIO, OpenEXR, SWIG</p>
-<div style="margin-bottom: 4rem;">
-
-</div>
 </section>
 <section id="technical-implementation" class="level2">
 <h2 class="anchored" data-anchor-id="technical-implementation">Technical Implementation</h2>
@@ -189,20 +186,14 @@ gtag('config', 'G-RX5RKNN2C2', { 'anonymize_ip': true});
 <li><p><strong>Dual ray marcher architecture:</strong> Separate ray marchers to evaluate deep shadow maps and render volumetric features, enabling physically-accurate light with shadow and scattering properties.</p></li>
 <li><p><strong>Adaptive step-size optimization:</strong> Dynamic step adjustment to balance performance optimization with rendering quality</p></li>
 </ul>
-<div style="margin-bottom: 4rem;">
-
-</div>
 </section>
 <section id="gallery" class="level2">
 <h2 class="anchored" data-anchor-id="gallery">Gallery</h2>
 <p>Below are three core effects that demonstrate the renderer’s capabilities with implicit volumes and procedural noise:</p>
-<div style="margin-bottom: 4rem;">
-
-</div>
 <section id="fractal-summed-perlin-noise" class="level3">
 <h3 class="anchored" data-anchor-id="fractal-summed-perlin-noise">Fractal-Summed Perlin Noise</h3>
 <p>Perlin Noise that can be modified and animated to mimick nature known as Fractal-Sum Perlin Noise. Includes modifiable parameters such as frequency, amplitude, roughness, frequency jump, and octaves to create more complex effects.</p>
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;">
+<div class="two_image_diagram">
 
   <div>
     <img src="./images/noise_slice.gif" alt="Noise Slice" style="width: 100%;">
@@ -241,7 +232,7 @@ gtag('config', 'G-RX5RKNN2C2', { 'anonymize_ip': true});
 <section id="pyroclastic-effects" class="level3">
 <h3 class="anchored" data-anchor-id="pyroclastic-effects">Pyroclastic Effects</h3>
 <p>Pyroclastic noise fields combined with implicit functions using iterative closest-point to create trailing smoke, cloud formations, and explosive noise.</p>
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;">
+<div class="two_image_diagram">
   <div>
     <img src="./images/pyro_slice.gif" alt="Pyroclastic Slice" style="width: 100%;">
     <p class="image-caption">Pyroclastic Sphere Slice</p>
@@ -273,7 +264,7 @@ gtag('config', 'G-RX5RKNN2C2', { 'anonymize_ip': true});
 <section id="wisps" class="level3">
 <h3 class="anchored" data-anchor-id="wisps">Wisps</h3>
 <p>Particle-based volume generation where millions of particles are stamped and baked into a density grid to create wispy, flowing volumes. These particles can also be constrained to spline paths and contribute to water-like or magical effects.</p>
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;">
+<div class="two_image_diagram">
   <div>
     <img src="./images/wisp_slice.gif" alt="Wisp Slice" style="width: 100%;">
     <p class="image-caption">Wisp Slice</p>
@@ -307,7 +298,7 @@ gtag('config', 'G-RX5RKNN2C2', { 'anonymize_ip': true});
 </section>
 
 </main> <!-- /main -->
-<div style="margin-bottom: 15rem;"></div>
+
 
 
 
@@ -343,7 +334,7 @@ gtag('config', 'G-RX5RKNN2C2', { 'anonymize_ip': true});
 
   <div class="icon">
 
-    <a href="../../research/index.html">
+    <a href="../../research/current_research/index.html">
 
       <img src="../../icons/research_v1.png" class="initial_image">
 

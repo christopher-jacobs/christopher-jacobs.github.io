@@ -5,6 +5,7 @@ project:
 website:
   title: "Home"
   google-analytics: "G-RX5RKNN2C2"
+  page-navigation: true
   open-graph: true # https://quarto.org/docs/websites/website-tools.html#open-graph
   page-footer: "© 2026 Christopher Jacobs | Researcher at Clemson University"
   navbar:
@@ -15,7 +16,7 @@ website:
         text: Home
       - href: projects/index.qmd
         text: Projects
-      - href: research/index.qmd
+      - href: research/current_research/index.qmd
         text: Research
       - href: publications/index.qmd
         text: Publications
@@ -31,7 +32,10 @@ resources:
   - "JacobsChristopher_Resume.pdf"
   - "projects/volume/images/**"
   - "projects/images/**"
-  - "research/images/**"
+  - "research/current_research/images/**"
+  - "research/past_research/VIPR/2024/images/**"
+  - "research/past_research/VIPR/2025/images/**"
+  - "research/past_research/musiplexity/images/**"
   - CNAME
     
 format:
@@ -40,5 +44,3 @@ format:
     mainfont: "monospace"
     fontsize: 20p
     theme: [cosmo, styles.scss]
-    include-after-body: footer_nav.html
-

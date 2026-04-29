@@ -1,0 +1,26 @@
+# - title: Tracked Vehicle Simulations in Unreal Engine 5 and Project Chrono
+#   path: ./VIPR/2025/index.qmd
+#   # image: ./VIPR/images/VIPR_Wheeled_Vehicle.png
+#   description: >
+#     This work continues research with Project Chrono and Unreal Engine implementations to
+#     extend the technology towards vehicle analysis.
+#   categories: [C/C++, Python, Unreal Engine, Physical Modeling & Simulation]
+#   date: 2025-01-17
+
+# - title: Extensible Real-Time Prototyping Framework within Unreal Engine
+#   path: ./VIPR/2024/index.qmd
+#   image: ./VIPR/images/VIPR_Wheeled_Vehicle.png
+#   description: >
+#     Developing real-time simulation and visualization tools for autonomous ground vehicle
+#     prototyping, bridging high-fidelity physical simulations with interactive 3D environments.
+#   categories: [C/C++, Python, Unreal Engine, Physical Modeling & Simulation]
+#   date: 2024-01-17
+
+- title: 'Musiplexity: Classifying Music by Genre using Data Analysis and Machine Learning'
+  path: ./musiplexity/index.qmd
+  image: ./musiplexity/images/vietoris_rips_complex.png
+  description: >
+    Can a computer sort music into predetermined genres using persistence homology
+    and k-means clustering?
+  categories: [Python, Machine Learning, Signal Processing]
+  date: 2022-05

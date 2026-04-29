@@ -1,6 +1,7 @@
 ---
 title: "Creating a Website using Quarto"
 date: "4/3/2026"
+include-after-body: ../../utils/footer_nav.html
 image: "quarto_cover_image.png"
 description: >
   Explaining how I created this portfolio website using Quarto, a static site generator.

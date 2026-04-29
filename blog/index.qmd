@@ -1,5 +1,6 @@
 ---
 title: Blog
+include-after-body: ../utils/footer_nav.html
 listing: 
   contents: /
   sort: "date desc"

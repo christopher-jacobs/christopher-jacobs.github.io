@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Projects – Home</title>
+<title>index – Home</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,25 +23,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-2fef5ea3f8957b3e4ecc936fc74692ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-d10d180b200fa4b4b9654e820b9961d1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-2fef5ea3f8957b3e4ecc936fc74692ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-d10d180b200fa4b4b9654e820b9961d1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,35 +67,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-RX5RKNN2C2"></script>
 
 <script type="text/javascript">
@@ -108,39 +77,11 @@ gtag('js', new Date());
 gtag('config', 'G-RX5RKNN2C2', { 'anonymize_ip': true});
 </script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="../styles.scss">
-<meta property="og:title" content="Projects – Home">
-<meta property="og:image" content="./volume/images/wisp_slice.gif">
+<link rel="stylesheet" href="../../styles.scss">
+<meta property="og:title" content="Home">
+<meta property="og:description" content="">
+<meta property="og:image" content="./images/feather_capture.PNG">
 <meta property="og:site_name" content="Home">
 </head>
 
@@ -151,7 +92,7 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Christopher Jacobs</span>
     </a>
   </div>
@@ -161,23 +102,23 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../projects/index.html" aria-current="page"> 
+    <a class="nav-link" href="../../projects/index.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../research/current_research/index.html"> 
+    <a class="nav-link active" href="../../research/current_research/index.html" aria-current="page"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../publications/index.html"> 
+    <a class="nav-link" href="../../publications/index.html"> 
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../blog/index.html"> 
+    <a class="nav-link" href="../../blog/index.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
 </ul>
@@ -193,92 +134,50 @@ window.Quarto = {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Projects</h1>
-</div>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
-<div class="quarto-title-meta">
 
-    
-  
-    
+<h2 class="research-title anchored">
+  Current Research | 
+  <a href="../../research/past_research/index.html">
+  Past Research </a>
+</h2>
+<section id="neural-rendering-for-object-capture-and-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="neural-rendering-for-object-capture-and-analysis">Neural Rendering for Object Capture and Analysis</h3>
+<div style="display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: auto auto; column-gap: 2rem; row-gap: 2rem; margin: 2rem 0; max-width: 1200px;">
+  <div style="grid-row: 1 / 3;">
+    <img src="./images/feather_capture.PNG" style="width: 100%; height: 92%; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+    <p class="image-caption">Feather Gaussian Splat (30k iterations)</p>
   </div>
-  
-
-
-</header>
-
-
-
-
-
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="QyUyRkMlMkIlMkIlMkNWb2x1bWV0cmljJTIwUmVuZGVyaW5nJTJDVmlzdWFsJTIwRWZmZWN0cw==" data-listing-date-sort="1746504000000" data-listing-file-modified-sort="1777489362037" data-listing-reading-time-sort="5" data-listing-word-count-sort="891">
-<div class="thumbnail"><a href="../projects/volume/index.html" class="no-external">
-
-<img loading="lazy" src="./volume/images/wisp_slice.gif" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../projects/volume/index.html" class="no-external">Physically-Based Volumetric Renderer</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('QyUyRkMlMkIlMkI='); return false;">C/C++</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('Vm9sdW1ldHJpYyUyMFJlbmRlcmluZw=='); return false;">Volumetric Rendering</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('VmlzdWFsJTIwRWZmZWN0cw=='); return false;">Visual Effects</div>
+  <div>
+    <video style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);" autoplay="" loop="" muted="" playsinline="">
+        <source src="./images/FeatherTestGS.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <p class="image-caption">Gaussian Splat Full View</p>
+  </div>
+  <div>
+    <img src="./images/VARIS.JPG" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+    <p class="image-caption">Variable Illumination Sphere (VarIS)</p>
+  </div>
+</div>
+<div style="margin-bottom: 2rem;">
 
 </div>
-<div class="delink listing-description"><a href="../projects/volume/index.html" class="no-external">
-<p>A physically-accurate volumetric rendering pipline for creating visual effects commonly used in film productions.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../projects/volume/index.html" class="no-external">
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="QyUyRkMlMkIlMkIlMkNBbGdvcml0aG0lMjBhbmQlMjBEZXNpZ24lMkNPcGVuR0w=" data-listing-date-sort="1682913600000" data-listing-file-modified-sort="1777489445940" data-listing-reading-time-sort="3" data-listing-word-count-sort="475">
-<div class="thumbnail"><a href="../projects/three_dim/index.html" class="no-external">
-
-<img loading="lazy" src="./three_dim/images/three_dim.gif" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../projects/three_dim/index.html" class="no-external">Three-Dimensional Pathfinding</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('QyUyRkMlMkIlMkI='); return false;">C/C++</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('QWxnb3JpdGhtJTIwYW5kJTIwRGVzaWdu'); return false;">Algorithm and Design</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('T3BlbkdM'); return false;">OpenGL</div>
+<p><strong>Advisor:</strong> Dr.&nbsp;Eric Patterson | Clemson University<br>
+<strong>Topics:</strong> Gaussian Splatting, Machine Learning, Material Capture, Facial Analysis</p>
+<div style="margin-bottom: 2rem;">
 
 </div>
-<div class="delink listing-description"><a href="../projects/three_dim/index.html" class="no-external">
-<p>A three-dimensional pathfinding program that utilizes A* and OpenGL to map the shortest path considering user-inputted obstacles.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../projects/three_dim/index.html" class="no-external">
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+<p>As a possible avenue for my dissertation, I am currently exploring neural inference techniques to improve vertex initialization in 3D Gaussian Splatting for facial and object reconstruction. This work focuses on leveraging multi-view feature detection to establish consistent point correspondences without the need for COLMAP algorithms that could be too expensive or incorrect.</p>
+<p>In the preliminary stages of our work, we were able to capture and render a Gaussian Splat model of this feather using Agisoft MetsShape to export COLMAP data. In total it took three days to render, 30,000 iterations, and over one million gaussians were left to be rasterized. Not only does this show remarkable possibility, it gives us a baseline to compare our future method that bypasses COLMAP.</p>
+
+
+</section>
+
+</main> <!-- /main -->
 
 
 
@@ -287,11 +186,11 @@ window.Quarto = {
 
   <div class="icon">
 
-    <a href="../index.html">
+    <a href="../../index.html">
 
-      <img src="../icons/home_v1.png" class="initial_image">
+      <img src="../../icons/home_v1.png" class="initial_image">
 
-      <img src="../icons/home_v2.png" class="background_image">
+      <img src="../../icons/home_v2.png" class="background_image">
 
     </a>
 
@@ -301,11 +200,11 @@ window.Quarto = {
 
   <div class="icon">
 
-    <a href="../projects/index.html">
+    <a href="../../projects/index.html">
 
-      <img src="../icons/projects_v1.png" class="initial_image">
+      <img src="../../icons/projects_v1.png" class="initial_image">
 
-      <img src="../icons/projects_v2.png" class="background_image">
+      <img src="../../icons/projects_v2.png" class="background_image">
 
     </a>
 
@@ -315,11 +214,11 @@ window.Quarto = {
 
   <div class="icon">
 
-    <a href="../research/current_research/index.html">
+    <a href="../../research/current_research/index.html">
 
-      <img src="../icons/research_v1.png" class="initial_image">
+      <img src="../../icons/research_v1.png" class="initial_image">
 
-      <img src="../icons/research_v2.png" class="background_image">
+      <img src="../../icons/research_v2.png" class="background_image">
 
     </a>
 
@@ -329,11 +228,11 @@ window.Quarto = {
 
   <div class="icon">
 
-    <a href="../publications/index.html">
+    <a href="../../publications/index.html">
 
-      <img src="../icons/publications_v1.png" class="initial_image">
+      <img src="../../icons/publications_v1.png" class="initial_image">
 
-      <img src="../icons/publications_v2.png" class="background_image">
+      <img src="../../icons/publications_v2.png" class="background_image">
 
     </a>
 
@@ -343,11 +242,11 @@ window.Quarto = {
 
   <div class="icon">
 
-    <a href="../blog/index.html">
+    <a href="../../blog/index.html">
 
-      <img src="../icons/blog_v1.png" class="initial_image">
+      <img src="../../icons/blog_v1.png" class="initial_image">
 
-      <img src="../icons/blog_v2.png" class="background_image">
+      <img src="../../icons/blog_v2.png" class="background_image">
 
     </a>
 
@@ -357,11 +256,11 @@ window.Quarto = {
 
   <div class="icon">
 
-    <a href="../art/index.html">
+    <a href="../../art/index.html">
 
-      <img src="../icons/art_v1.png" class="initial_image">
+      <img src="../../icons/art_v1.png" class="initial_image">
 
-      <img src="../icons/art_v2.png" class="background_image"> 
+      <img src="../../icons/art_v2.png" class="background_image"> 
 
     </a>
 

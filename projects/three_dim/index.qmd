@@ -1,5 +1,6 @@
 ---
 title: "Three-Dimensional A* Pathfinder"
+include-after-body: ../../utils/footer_nav.html
 format:
   html:
     toc: false
@@ -36,8 +37,6 @@ For this project, I utilized C++ and Legacy OpenGL to develop and visualize the 
 **Technologies:** C++, Legacy OpenGL, GLUT
 
 
-<div style="margin-bottom: 3rem;"></div>
-
 ## Technical Implementation
 
 - **A* Algorithm:** The user is able to place spherical objects with different radi at different locations within the grid. Once they are satisfied, a roadmap will be created using the voxels that have obstacles identified. Using their vertices, the A* algorithm will parse through the roadmap to find the shortest path possible.
@@ -45,8 +44,6 @@ For this project, I utilized C++ and Legacy OpenGL to develop and visualize the 
 - **Voxel Octrees:** I want to balance the ability to visualize the obstacles, voxels, roadmap, and path with computational efficiency. Therefore, I leveraged a voxel octree data structure to represent the 3D regions, similarly to tree data structures.
 
 - **OpenGL/GLUT:** To visualize the scene I used OpenGL and GLUT tools. Using multiple methods and keyboard controls, I updated the viewing buffers with transformation matrices for the camera so the user can have a 360&deg; view of the scene.
-
-<div style="margin-bottom: 4rem;"></div>
 
 ## Gallery
 
@@ -76,8 +73,6 @@ For this project, I utilized C++ and Legacy OpenGL to develop and visualize the 
 </div>
 ```
 
-<div style="margin-bottom: 4rem;"></div>
-
 ## Future Work
 - Add Windows and MacOS capabilities to build and execute the repository.
 - Extend the final path to interpolate using a spline or bezier curve for a better, more realistic simulation.
@@ -85,6 +80,3 @@ For this project, I utilized C++ and Legacy OpenGL to develop and visualize the 
 - Research further to make the program more computationally efficient.
 - Explore modern OpenGL.
 - Possibly look at integrating the tool within Unreal Engine.
-
-
-<div style="margin-bottom: 3rem;"></div>

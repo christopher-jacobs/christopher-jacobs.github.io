@@ -1,3 +1,4 @@
 ---
 title: Art/Media
+include-after-body: ../utils/footer_nav.html
 ---

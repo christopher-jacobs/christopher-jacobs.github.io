@@ -11,5 +11,11 @@
     "items": [
       "/blog/first-post/index.html"
     ]
+  },
+  {
+    "listing": "/research/past_research/index.html",
+    "items": [
+      "/research/past_research/musiplexity/index.html"
+    ]
   }
 ]
