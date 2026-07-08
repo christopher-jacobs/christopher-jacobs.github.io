@@ -381,6 +381,11 @@ $desktop-breakpoint: 1024px;
     padding: 20px;
     gap: 1rem;
 
+    > div {
+        min-width: 0;
+        flex: 1 1 0;
+    }
+
     @media (max-width: $mobile-breakpoint) {
         justify-items: center;
         justify-content: space-between;
@@ -394,10 +399,35 @@ $desktop-breakpoint: 1024px;
     padding: 20px;
     gap: 1rem;
 
+    .icon {
+        min-width: 0;
+        flex: 1 1 0;
+    }
+
+    .initial_image, .background_image {
+        width: 100%;
+        aspect-ratio: 1 / 1;
+        object-fit: contain;
+    }
+
+    @media (max-width: $desktop-breakpoint) and (min-width: $mobile-breakpoint) {
+        display: grid !important;
+        grid-template-columns: repeat(3, 1fr) !important;
+        row-gap: 1.5rem !important;
+
+        .icon {
+            flex: none;
+        }
+    }
+
     @media (max-width: $mobile-breakpoint) {
         justify-items: center;
         justify-content: space-between;
         flex-direction: column;
+
+        .icon {
+            flex: none;
+        }
     }
 
     .icon-caption{
