@@ -56,6 +56,21 @@ figcaption {
     margin-top: 20px;
 }
 
+.research_button {
+    background-color: $theme-green;
+    margin: auto;
+    border: none;
+    color: $theme-white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 14px;
+    border-radius: 4px;
+    margin-top: 20px;
+
+}
+
 span.navbar-title {
     transition-duration: 0.5s;
 

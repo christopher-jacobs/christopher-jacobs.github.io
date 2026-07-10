@@ -16,7 +16,7 @@ website:
         text: Home
       - href: projects/index.qmd
         text: Projects
-      - href: research/current_research/index.qmd
+      - href: research/index.qmd
         text: Research
       - href: publications/index.qmd
         text: Publications
@@ -32,10 +32,10 @@ resources:
   - "JacobsChristopher_Resume.pdf"
   - "projects/volume/images/**"
   - "projects/images/**"
-  - "research/current_research/images/**"
-  - "research/past_research/VIPR/2024/images/**"
-  - "research/past_research/VIPR/2025/images/**"
-  - "research/past_research/musiplexity/images/**"
+  - "research/images/**"
+  - "research/VIPR/2024/images/**"
+  - "research/VIPR/2025/images/**"
+  - "research/musiplexity/images/**"
   - CNAME
     
 format:

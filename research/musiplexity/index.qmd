@@ -1,6 +1,6 @@
 ---
 title: 'Musiplexity: Classifying Music by Genre using Data Analysis and Machine Learning'
-include-after-body: ../../../utils/footer_nav.html
+include-after-body: ../../utils/footer_nav.html
 format:
   html:
     toc: false

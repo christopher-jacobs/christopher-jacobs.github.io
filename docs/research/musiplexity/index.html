@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Extensible Real-Time Prototyping Framework within Unreal Engine – Home</title>
+<title>Musiplexity: Classifying Music by Genre using Data Analysis and Machine Learning – Home</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,23 +23,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../../../">
-<script src="../../../../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../../../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../../site_libs/quarto-html/quarto-syntax-highlighting-dark-2fef5ea3f8957b3e4ecc936fc74692ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../../site_libs/bootstrap/bootstrap-377506fbedc39b42f29c1dd47fa1467f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-2fef5ea3f8957b3e4ecc936fc74692ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-12837c297cbb6dfa9767c7dfebb1d2c4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -77,10 +77,40 @@ gtag('js', new Date());
 gtag('config', 'G-RX5RKNN2C2', { 'anonymize_ip': true});
 </script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<link rel="stylesheet" href="../../../../styles.scss">
-<meta property="og:title" content="Extensible Real-Time Prototyping Framework within Unreal Engine – Home">
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../../styles.scss">
+<meta property="og:title" content="Musiplexity: Classifying Music by Genre using Data Analysis and Machine Learning – Home">
 <meta property="og:description" content="">
+<meta property="og:image" content="./images/vietoris_rips_complex.png">
 <meta property="og:site_name" content="Home">
 </head>
 
@@ -91,7 +121,7 @@ gtag('config', 'G-RX5RKNN2C2', { 'anonymize_ip': true});
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../../../../index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Christopher Jacobs</span>
     </a>
   </div>
@@ -101,23 +131,23 @@ gtag('config', 'G-RX5RKNN2C2', { 'anonymize_ip': true});
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../../../index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../../projects/index.html"> 
+    <a class="nav-link" href="../../projects/index.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../../research/current_research/index.html"> 
+    <a class="nav-link" href="../../research/index.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../../publications/index.html"> 
+    <a class="nav-link" href="../../publications/index.html"> 
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../../blog/index.html"> 
+    <a class="nav-link" href="../../blog/index.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
 </ul>
@@ -137,7 +167,7 @@ gtag('config', 'G-RX5RKNN2C2', { 'anonymize_ip': true});
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Extensible Real-Time Prototyping Framework within Unreal Engine</h1>
+<h1 class="title">Musiplexity: Classifying Music by Genre using Data Analysis and Machine Learning</h1>
 </div>
 
 
@@ -154,16 +184,70 @@ gtag('config', 'G-RX5RKNN2C2', { 'anonymize_ip': true});
 </header>
 
 
-<section id="extensible-real-time-prototyping-framework-within-unreal-engine" class="level3">
-<h3 class="anchored" data-anchor-id="extensible-real-time-prototyping-framework-within-unreal-engine">Extensible Real-Time Prototyping Framework within Unreal Engine</h3>
-<p><strong>Research Assistant</strong> | February 2024 - February 2025 <strong>Project:</strong> VIPR-GS (Virtual Prototyping of Autonomy-Enabled Ground Systems) <strong>Collaborators:</strong> Dr.&nbsp;Eric Patterson</p>
-<p>Developing real-time simulation and visualization tools for autonomous ground vehicle prototyping, briding high-fidelity physics simulation with interactive 3D environments.</p>
-<p><strong>Technical Contributions:</strong></p>
-<ul>
-<li><strong>Middleware architecture:</strong> Designed and implemented C++ and Python mideleware, enabling bidirectional communication between Project Chrono and Unreal Engine via UDP protocol.</li>
-<li><strong>Physics-informed neural network (PINNs) framework:</strong> Began developing a hybrid neural network model to accelerate wheeled vehicle dynamics while maintaining physical accuracy and reducing computational overhead for real-time applications (due to the project’s end date, this work is left unfinished).</li>
-</ul>
-<p><strong>Technologies:</strong> C++, Python, Unreal Engine 5, Project Chrono, PyTorch, UDP networking</p>
+<div style="margin-bottom: 2rem;">
+
+</div>
+<button class="github_button" onclick="window.location.href = 'https://github.com/christopher-jacobs/musiplexity';">
+<i class="bi bi-github"></i>&nbsp; View on GitHub
+</button>
+<div style="margin-bottom: 3rem;">
+
+</div>
+<p>This is project I conducted as part of an unpaid internship with the Patriot Machine Learning Research Group at Francis Marion University. This research analyzes how well machines can sort musical selections into predetermined genres using persistent homology and k-means clustering.</p>
+<section id="inspiration" class="level2">
+<h2 class="anchored" data-anchor-id="inspiration">Inspiration</h2>
+<p>When I was completing my undergraduate degree in Computer Science, I wanted an opportunity to explore interest areas outside of pure software engineering. Having a musical background from high school, I wanted to learn more about audio signal analysis and how it can be incorporated with artifical intelligence. The university had just recently conducted an artifical intelligence course, so I decided to discuss the project with the lecturer, Dr.&nbsp;Ivan Dungan. After workshopping the project and scaling back the intensity, we landed on our research question: Can a computer sort musical selections into predetermined genres with little to no human interaction?</p>
+</section>
+<section id="background" class="level2">
+<h2 class="anchored" data-anchor-id="background">Background</h2>
+<section id="persistent-homology" class="level3">
+<h3 class="anchored" data-anchor-id="persistent-homology">Persistent Homology</h3>
+<p>Though the two main topics for this research were signal analysis and artifical intelligence, this work also introduced me to more intricate concepts of data science. For this project, we utilized topological data science, using simple complexes from topology to describe large structure sets. Within topological data science is a method named persistent homology that studies features within graphical planes. Speficially, this targets persistent features at different spatial scales to separate important aspects from noise.</p>
+<p>To study these identities, I utilized the Viteoris-Rips complex, a method that analyzes these features as “holes.” Given a set of points, we can form a simplex (a simple n-dimensional shape) by defining a distance from each of these points and creating a relationship with all other points that fall within this diameter.</p>
+<p>Below is a simple example of the Viteoris-Rips complex. Here we have two sets of points that form squares with different spatial dimensions. When our distance or radius is zero, there are no relationships between the points. However, as we increase the radius, we begin to see the simplex form. With a distance of two radii, line segments or edges are formed within the set of points that form the smaller dimensional square, whereas the set of points that form the larger dimensional square still have no perceived relationship. With a radii of three, the smaller dimensional square is fully formed and what was now once a “hole” is fully realized as a simplex.</p>
+<div style="text-align: center;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./images/vietoris_rips_complex.png" title="Example of Vietoris-Rips Complex" class="img-fluid figure-img"></p>
+<figcaption>Example of Vietoris-Rips Complex</figcaption>
+</figure>
+</div>
+</div>
+</section>
+<section id="k-means-clustering" class="level3">
+<h3 class="anchored" data-anchor-id="k-means-clustering">K-Means Clustering</h3>
+<p>K-means clustering is a machine learning algorithm that takes a finite set of data points, separates the data into clusters, and finds centroids to give the best representation for that set of data. The algorithm first generates N number of centroids by randomly selecting data points from the set. Each data point is then assigned into a cluster by measuring the Euclidean distance between the centroid and point. Once all points have been categorized, a new centroid will be determined by taking the average of all data points within that cluster. If the distance between the new centroid and previous centroid are equal to zero, then the most accurate centroid has been found and the algorithm is finished. Otherwise, the method is called recursively with the newly defined centroid until this distance equals zero. Below is a flowchart of this algorithm explained.</p>
+<div style="text-align: center;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./images/k_means_flowchart.png" title="Flowchart of K-Means Algorithm" class="img-fluid figure-img"></p>
+<figcaption>Flowchart of K-Means Algorithm</figcaption>
+</figure>
+</div>
+</div>
+</section>
+</section>
+<section id="methodology" class="level2">
+<h2 class="anchored" data-anchor-id="methodology">Methodology</h2>
+<p>The initial method was to take an audio signal, convert it into a time series, and filter the signal using a Butterworth low-pass filter to reduce the number of frequencies and leave a smooth, low-frequency signal for analysis. Our hypothesis was that if we isolated the lower frequencies, we would obtain the most important features that could be used to identify the genre. These filtered samples are then processed through a window function to produce different views of the dataset and predict future trends. Furthermore, this function would define the point cloud that would be processed by our persistence diagram to determine features.</p>
+<p>Though it was functional, the output was almost impossible to decipher any unique features from either the point cloud or persistence diagram as seen below. We needed to rethink our methodology and reduce our sample size from the audio signal, while still obtaining the most meaningful pieces of data from the input.</p>
+<div class="two_image_diagram" style="display: flex; grid-template-columns: 1fr 1fr; gap: 2rem;">
+  <div>
+    <img src="./images/dense_point_cloud.png" alt="Noise Slice" style="width: 100%;">
+    <p class="image-caption">Fractal-Sum Noise Slice</p>
+  </div>
+  <div>
+    <img src="./images/dense_persist.png" alt="Noise Slice" style="width: 100%;">
+    <p class="image-caption">Fractal-Sum Noise Slice</p>
+  </div>
+</div>
+<p>Instead of looking at the lowest frequencies, we decided to look at the highest frequencies and take the maximum values within a fixed time interval. This idea surfaced after a brief discussion with musical experts that highlighted how higher frequencies can carry more distinctive characteristics than lower frequencies. To verify this new hypothesis, we implemented this idea with a simple sine curve, taking the maximum-value at every two-second interval. The resulting point cloud from the window function outputs a perfect circle, a unique and identifiable shape to describe the basic audio signal. When utilizing this new method, we are given more unique and decipherable point clouds to analyze.</p>
+<p>When analyzing the persistence diagram, there are two sets of data that are being visualized: <span class="math inline">\(H_0\)</span> and <span class="math inline">\(H_1\)</span>. We are more concerned with <span class="math inline">\(H_1\)</span> where there are more variations between the birth and death of the points (birth and death meaning how long do they persist). After separating the two sets, we then rotate the data points <span class="math inline">\(45\degree\)</span> clockwise to align the points along the x-axis for better visualization.</p>
+<p>Now, we discretize the data points within a specific range to fit within a two-dimensional matrix. This matrix is defined with an eight-by-eight resolution to create the most unique and identifiable structures for each song. These matrices are created for each song, creating identifiable vectors for each selection. For testing, we wanted to chose two distinct genres that were (mostly) easily decipherable by the human ear for comparison. We ended up choosing Rock and Country as our two distinct genre categories, selecting 50 songs from each genre to create two distinct centroids.</p>
+</section>
+<section id="results" class="level2">
+<h2 class="anchored" data-anchor-id="results">Results</h2>
+<p>Using K-Fold Cross-Validation, we measured the performance of our method by randomly selecting ten songs for ten tests, and then averaging the binary score of either correctly identifying the genre (1) or incorrectly identifying the genre (0). After the ten tests, the overall accuracy of the method is 61% with a standard deviation of 0.94. Our goal was to have the methodology score higher than 50% to be deemed successful. Though it does reach that standard, there are many variables that can be altered to test for higher validity. This includes the variables for the window function that create the point clouds, or looking further into how the data can be discretized into a more meaningful vector.</p>
 
 
 </section>
@@ -177,11 +261,11 @@ gtag('config', 'G-RX5RKNN2C2', { 'anonymize_ip': true});
 
   <div class="icon">
 
-    <a href="../../../../index.html">
+    <a href="../../index.html">
 
-      <img src="../../../../icons/home_v1.png" class="initial_image">
+      <img src="../../icons/home_v1.png" class="initial_image">
 
-      <img src="../../../../icons/home_v2.png" class="background_image">
+      <img src="../../icons/home_v2.png" class="background_image">
 
     </a>
 
@@ -191,11 +275,11 @@ gtag('config', 'G-RX5RKNN2C2', { 'anonymize_ip': true});
 
   <div class="icon">
 
-    <a href="../../../../projects/index.html">
+    <a href="../../projects/index.html">
 
-      <img src="../../../../icons/projects_v1.png" class="initial_image">
+      <img src="../../icons/projects_v1.png" class="initial_image">
 
-      <img src="../../../../icons/projects_v2.png" class="background_image">
+      <img src="../../icons/projects_v2.png" class="background_image">
 
     </a>
 
@@ -205,11 +289,11 @@ gtag('config', 'G-RX5RKNN2C2', { 'anonymize_ip': true});
 
   <div class="icon">
 
-    <a href="../../../../research/current_research/index.html">
+    <a href="../../research/index.html">
 
-      <img src="../../../../icons/research_v1.png" class="initial_image">
+      <img src="../../icons/research_v1.png" class="initial_image">
 
-      <img src="../../../../icons/research_v2.png" class="background_image">
+      <img src="../../icons/research_v2.png" class="background_image">
 
     </a>
 
@@ -219,11 +303,11 @@ gtag('config', 'G-RX5RKNN2C2', { 'anonymize_ip': true});
 
   <div class="icon">
 
-    <a href="../../../../publications/index.html">
+    <a href="../../publications/index.html">
 
-      <img src="../../../../icons/publications_v1.png" class="initial_image">
+      <img src="../../icons/publications_v1.png" class="initial_image">
 
-      <img src="../../../../icons/publications_v2.png" class="background_image">
+      <img src="../../icons/publications_v2.png" class="background_image">
 
     </a>
 
@@ -233,11 +317,11 @@ gtag('config', 'G-RX5RKNN2C2', { 'anonymize_ip': true});
 
   <div class="icon">
 
-    <a href="../../../../blog/index.html">
+    <a href="../../blog/index.html">
 
-      <img src="../../../../icons/blog_v1.png" class="initial_image">
+      <img src="../../icons/blog_v1.png" class="initial_image">
 
-      <img src="../../../../icons/blog_v2.png" class="background_image">
+      <img src="../../icons/blog_v2.png" class="background_image">
 
     </a>
 
@@ -247,11 +331,11 @@ gtag('config', 'G-RX5RKNN2C2', { 'anonymize_ip': true});
 
   <div class="icon">
 
-    <a href="../../../../art/index.html">
+    <a href="../../art/index.html">
 
-      <img src="../../../../icons/art_v1.png" class="initial_image">
+      <img src="../../icons/art_v1.png" class="initial_image">
 
-      <img src="../../../../icons/art_v2.png" class="background_image"> 
+      <img src="../../icons/art_v2.png" class="background_image"> 
 
     </a>
 

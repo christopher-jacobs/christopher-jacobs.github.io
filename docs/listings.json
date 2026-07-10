@@ -1,21 +1,15 @@
 [
   {
-    "listing": "/projects/index.html",
-    "items": [
-      "/projects/volume/index.html",
-      "/projects/three_dim/index.html"
-    ]
-  },
-  {
     "listing": "/blog/index.html",
     "items": [
       "/blog/first-post/index.html"
     ]
   },
   {
-    "listing": "/research/past_research/index.html",
+    "listing": "/projects/index.html",
     "items": [
-      "/research/past_research/musiplexity/index.html"
+      "/projects/volume/index.html",
+      "/projects/three_dim/index.html"
     ]
   }
 ]

@@ -1,129 +1,52 @@
 [
   {
-    "objectID": "research/past_research/VIPR/2025/index.html",
-    "href": "research/past_research/VIPR/2025/index.html",
+    "objectID": "research/VIPR/2025/index.html",
+    "href": "research/VIPR/2025/index.html",
     "title": "Tracked Vehicle Simulations in Unreal Engine 5 and Project Chrono",
     "section": "",
     "text": "Research Assistant | January 2025 - September 2025\nProject: VIPR-GS (Virtual Prototyping of Autonomy-Enabled Ground Systems)\nCollaborators: Dr. Eric Patterson, Dr. Gregory Mocko, William Luttrell\nThis work continues research with Project Chrono and Unreal Engine implementations to extend the technology towards tracked vehicle analysis."
   },
   {
-    "objectID": "research/past_research/musiplexity/index.html",
-    "href": "research/past_research/musiplexity/index.html",
+    "objectID": "research/musiplexity/index.html",
+    "href": "research/musiplexity/index.html",
     "title": "Musiplexity: Classifying Music by Genre using Data Analysis and Machine Learning",
     "section": "",
     "text": "This is project I conducted as part of an unpaid internship with the Patriot Machine Learning Research Group at Francis Marion University. This research analyzes how well machines can sort musical selections into predetermined genres using persistent homology and k-means clustering."
   },
   {
-    "objectID": "research/past_research/musiplexity/index.html#inspiration",
-    "href": "research/past_research/musiplexity/index.html#inspiration",
+    "objectID": "research/musiplexity/index.html#inspiration",
+    "href": "research/musiplexity/index.html#inspiration",
     "title": "Musiplexity: Classifying Music by Genre using Data Analysis and Machine Learning",
     "section": "Inspiration",
     "text": "Inspiration\nWhen I was completing my undergraduate degree in Computer Science, I wanted an opportunity to explore interest areas outside of pure software engineering. Having a musical background from high school, I wanted to learn more about audio signal analysis and how it can be incorporated with artifical intelligence. The university had just recently conducted an artifical intelligence course, so I decided to discuss the project with the lecturer, Dr. Ivan Dungan. After workshopping the project and scaling back the intensity, we landed on our research question: Can a computer sort musical selections into predetermined genres with little to no human interaction?"
   },
   {
-    "objectID": "research/past_research/musiplexity/index.html#background",
-    "href": "research/past_research/musiplexity/index.html#background",
+    "objectID": "research/musiplexity/index.html#background",
+    "href": "research/musiplexity/index.html#background",
     "title": "Musiplexity: Classifying Music by Genre using Data Analysis and Machine Learning",
     "section": "Background",
     "text": "Background\n\nPersistent Homology\nThough the two main topics for this research were signal analysis and artifical intelligence, this work also introduced me to more intricate concepts of data science. For this project, we utilized topological data science, using simple complexes from topology to describe large structure sets. Within topological data science is a method named persistent homology that studies features within graphical planes. Speficially, this targets persistent features at different spatial scales to separate important aspects from noise.\nTo study these identities, I utilized the Viteoris-Rips complex, a method that analyzes these features as “holes.” Given a set of points, we can form a simplex (a simple n-dimensional shape) by defining a distance from each of these points and creating a relationship with all other points that fall within this diameter.\nBelow is a simple example of the Viteoris-Rips complex. Here we have two sets of points that form squares with different spatial dimensions. When our distance or radius is zero, there are no relationships between the points. However, as we increase the radius, we begin to see the simplex form. With a distance of two radii, line segments or edges are formed within the set of points that form the smaller dimensional square, whereas the set of points that form the larger dimensional square still have no perceived relationship. With a radii of three, the smaller dimensional square is fully formed and what was now once a “hole” is fully realized as a simplex.\n\n\n\n\nExample of Vietoris-Rips Complex\n\n\n\n\n\nK-Means Clustering\nK-means clustering is a machine learning algorithm that takes a finite set of data points, separates the data into clusters, and finds centroids to give the best representation for that set of data. The algorithm first generates N number of centroids by randomly selecting data points from the set. Each data point is then assigned into a cluster by measuring the Euclidean distance between the centroid and point. Once all points have been categorized, a new centroid will be determined by taking the average of all data points within that cluster. If the distance between the new centroid and previous centroid are equal to zero, then the most accurate centroid has been found and the algorithm is finished. Otherwise, the method is called recursively with the newly defined centroid until this distance equals zero. Below is a flowchart of this algorithm explained.\n\n\n\n\nFlowchart of K-Means Algorithm"
   },
   {
-    "objectID": "research/past_research/musiplexity/index.html#methodology",
-    "href": "research/past_research/musiplexity/index.html#methodology",
+    "objectID": "research/musiplexity/index.html#methodology",
+    "href": "research/musiplexity/index.html#methodology",
     "title": "Musiplexity: Classifying Music by Genre using Data Analysis and Machine Learning",
     "section": "Methodology",
     "text": "Methodology\nThe initial method was to take an audio signal, convert it into a time series, and filter the signal using a Butterworth low-pass filter to reduce the number of frequencies and leave a smooth, low-frequency signal for analysis. Our hypothesis was that if we isolated the lower frequencies, we would obtain the most important features that could be used to identify the genre. These filtered samples are then processed through a window function to produce different views of the dataset and predict future trends. Furthermore, this function would define the point cloud that would be processed by our persistence diagram to determine features.\nThough it was functional, the output was almost impossible to decipher any unique features from either the point cloud or persistence diagram as seen below. We needed to rethink our methodology and reduce our sample size from the audio signal, while still obtaining the most meaningful pieces of data from the input.\n\n  \n    \n    Fractal-Sum Noise Slice\n  \n  \n    \n    Fractal-Sum Noise Slice\n  \n\nInstead of looking at the lowest frequencies, we decided to look at the highest frequencies and take the maximum values within a fixed time interval. This idea surfaced after a brief discussion with musical experts that highlighted how higher frequencies can carry more distinctive characteristics than lower frequencies. To verify this new hypothesis, we implemented this idea with a simple sine curve, taking the maximum-value at every two-second interval. The resulting point cloud from the window function outputs a perfect circle, a unique and identifiable shape to describe the basic audio signal. When utilizing this new method, we are given more unique and decipherable point clouds to analyze.\nWhen analyzing the persistence diagram, there are two sets of data that are being visualized: \\(H_0\\) and \\(H_1\\). We are more concerned with \\(H_1\\) where there are more variations between the birth and death of the points (birth and death meaning how long do they persist). After separating the two sets, we then rotate the data points \\(45\\degree\\) clockwise to align the points along the x-axis for better visualization.\nNow, we discretize the data points within a specific range to fit within a two-dimensional matrix. This matrix is defined with an eight-by-eight resolution to create the most unique and identifiable structures for each song. These matrices are created for each song, creating identifiable vectors for each selection. For testing, we wanted to chose two distinct genres that were (mostly) easily decipherable by the human ear for comparison. We ended up choosing Rock and Country as our two distinct genre categories, selecting 50 songs from each genre to create two distinct centroids."
   },
   {
-    "objectID": "research/past_research/musiplexity/index.html#results",
-    "href": "research/past_research/musiplexity/index.html#results",
+    "objectID": "research/musiplexity/index.html#results",
+    "href": "research/musiplexity/index.html#results",
     "title": "Musiplexity: Classifying Music by Genre using Data Analysis and Machine Learning",
     "section": "Results",
     "text": "Results\nUsing K-Fold Cross-Validation, we measured the performance of our method by randomly selecting ten songs for ten tests, and then averaging the binary score of either correctly identifying the genre (1) or incorrectly identifying the genre (0). After the ten tests, the overall accuracy of the method is 61% with a standard deviation of 0.94. Our goal was to have the methodology score higher than 50% to be deemed successful. Though it does reach that standard, there are many variables that can be altered to test for higher validity. This includes the variables for the window function that create the point clouds, or looking further into how the data can be discretized into a more meaningful vector."
   },
   {
-    "objectID": "research/current_research/index.html",
-    "href": "research/current_research/index.html",
-    "title": "Home",
+    "objectID": "publications/index.html",
+    "href": "publications/index.html",
+    "title": "Publications",
     "section": "",
-    "text": "Current Research | \n  \n  Past Research \n\n\nNeural Rendering for Object Capture and Analysis\n\n  \n    \n    Feather Gaussian Splat (30k iterations)\n  \n  \n    \n        \n        Your browser does not support the video tag.\n    \n    Gaussian Splat Full View\n  \n  \n    \n    Variable Illumination Sphere (VarIS)\n  \n\n\n\n\nAdvisor: Dr. Eric Patterson | Clemson University\nTopics: Gaussian Splatting, Machine Learning, Material Capture, Facial Analysis\n\n\n\nAs a possible avenue for my dissertation, I am currently exploring neural inference techniques to improve vertex initialization in 3D Gaussian Splatting for facial and object reconstruction. This work focuses on leveraging multi-view feature detection to establish consistent point correspondences without the need for COLMAP algorithms that could be too expensive or incorrect.\nIn the preliminary stages of our work, we were able to capture and render a Gaussian Splat model of this feather using Agisoft MetsShape to export COLMAP data. In total it took three days to render, 30,000 iterations, and over one million gaussians were left to be rasterized. Not only does this show remarkable possibility, it gives us a baseline to compare our future method that bypasses COLMAP."
-  },
-  {
-    "objectID": "projects/volume/index.html#project-overview",
-    "href": "projects/volume/index.html#project-overview",
-    "title": "Physically-Based Volumetric Renderer",
-    "section": "Project Overview",
-    "text": "Project Overview\nI developed a physically-accurate volumetric rendering system in C++ for creating visual effects commonly used in feature film production. The pipeline utilizes a ray marching algorithm to evaluate implicit volumes and deep shadow maps, generating realistic atmospheric effects including noise clouds, pyroclastic volumes, wisps, terrain elements, and level sets.\nTechnologies: C++, OpenImageIO, OpenEXR, SWIG"
-  },
-  {
-    "objectID": "projects/volume/index.html#technical-implementation",
-    "href": "projects/volume/index.html#technical-implementation",
-    "title": "Physically-Based Volumetric Renderer",
-    "section": "Technical Implementation",
-    "text": "Technical Implementation\nThe rendering pipeline utilizes a multithreaded ray marching approach with physically-based scattering and shadowing models. Key technical components include:\n\nFlexible rendering: Users can render within a sparse grid for bounded rendering or utilize unbounded volume evaluation depending on production requirements.\nDual ray marcher architecture: Separate ray marchers to evaluate deep shadow maps and render volumetric features, enabling physically-accurate light with shadow and scattering properties.\nAdaptive step-size optimization: Dynamic step adjustment to balance performance optimization with rendering quality"
-  },
-  {
-    "objectID": "projects/volume/index.html#gallery",
-    "href": "projects/volume/index.html#gallery",
-    "title": "Physically-Based Volumetric Renderer",
-    "section": "Gallery",
-    "text": "Gallery\nBelow are three core effects that demonstrate the renderer’s capabilities with implicit volumes and procedural noise:\n\nFractal-Summed Perlin Noise\nPerlin Noise that can be modified and animated to mimick nature known as Fractal-Sum Perlin Noise. Includes modifiable parameters such as frequency, amplitude, roughness, frequency jump, and octaves to create more complex effects.\n\n\n  \n    \n    Fractal-Sum Noise Slice\n  \n\n  \n    \n      \n      \n        \n          \n        \n        \n          \n        \n        \n          \n        \n      \n      Fractal-Sum Noise Freeze Frames\n\n      \n        \n      \n\n      \n        \n      \n\n    \n  \n\n\n\n\nPyroclastic Effects\nPyroclastic noise fields combined with implicit functions using iterative closest-point to create trailing smoke, cloud formations, and explosive noise.\n\n  \n    \n    Pyroclastic Sphere Slice\n  \n  \n    \n      \n        \n          \n        \n        \n          \n        \n        \n          \n        \n      \n      Pyroclastic Sphere Freeze Frames\n      \n        \n      \n      \n        \n      \n    \n  \n\n\n\nWisps\nParticle-based volume generation where millions of particles are stamped and baked into a density grid to create wispy, flowing volumes. These particles can also be constrained to spline paths and contribute to water-like or magical effects.\n\n  \n    \n    Wisp Slice\n  \n  \n    \n      \n        \n          \n        \n        \n          \n        \n        \n          \n        \n      \n      Wisp Freeze Frames"
-  },
-  {
-    "objectID": "projects/index.html",
-    "href": "projects/index.html",
-    "title": "Projects",
-    "section": "",
-    "text": "Physically-Based Volumetric Renderer\n\n\n\nC/C++\n\nVolumetric Rendering\n\nVisual Effects\n\n\n\nA physically-accurate volumetric rendering pipline for creating visual effects commonly used in film productions.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThree-Dimensional Pathfinding\n\n\n\nC/C++\n\nAlgorithm and Design\n\nOpenGL\n\n\n\nA three-dimensional pathfinding program that utilizes A* and OpenGL to map the shortest path considering user-inputted obstacles.\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "blog/index.html",
-    "href": "blog/index.html",
-    "title": "Blog",
-    "section": "",
-    "text": "Creating a Website using Quarto\n\n\n\nTechnology\n\nWeb Development\n\n\n\nExplaining how I created this portfolio website using Quarto, a static site generator.\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "blog/first-post/index.html#why-quarto",
-    "href": "blog/first-post/index.html#why-quarto",
-    "title": "Creating a Website using Quarto",
-    "section": "Why Quarto?",
-    "text": "Why Quarto?\nWhen I originally started to create my portfolio website, I tested a variety of site builders for simplicity (Wix Website Builder, Squarespace, etc.). Though it was an easy setup to get started, I despised how restrictive the site builders were in terms of limiting creativity. On the other hand, it has been several years since programming with HTML and CSS in undergrad, and it would be a daunting task to create an entire website from scratch. My colleague and friend Emily Port (check her out; she is amazing and incredibly intelligent) told me how she built her website using static site generators (SSG). Her website utilizes an SSG called Hugo, but while doing some more research, some developers discussed how they were moving away from Hugo and instead using Quarto. As someone who has not worked with either of these frameworks, I decided to go with Quarto, as people described the setup and rendering process as simple and easy to update."
-  },
-  {
-    "objectID": "blog/first-post/index.html#getting-started",
-    "href": "blog/first-post/index.html#getting-started",
-    "title": "Creating a Website using Quarto",
-    "section": "Getting Started",
-    "text": "Getting Started\nThe workflow itself isn’t that hard to follow, thankfully, especially with the guide they have on their website and the video tutorials they have on YouTube.\nEach page is mainly going to have two files: a Quarto Markdown Document (qmd) file where you can insert detailed documentation and a YML file that configures the frontmatter and website options for each page. To customize the pages, you can include a Sassy CSS (SCSS) file to program attributes such as font type, color themes, and special decorators.\nBefore previewing the website, you will need to render the page first using the render command:\nquarto render\nYou can also render specific files instead of the entire directory by specifying the file after the render keyword. After rendering the pages, you are able to preview the website on a local host using the following:\nquarto preview\nI recommend checking out their page of tutorials and tips to integrate how to implement website attributes, including navigation and tools."
-  },
-  {
-    "objectID": "blog/first-post/index.html#challenge-customizing-pages",
-    "href": "blog/first-post/index.html#challenge-customizing-pages",
-    "title": "Creating a Website using Quarto",
-    "section": "Challenge: Customizing Pages",
-    "text": "Challenge: Customizing Pages\nThe main challenge that I faced when customizing the website was being restricted by the original template. I think the template is great as a starting foundation, but as I added more information, I brainstormed ideas of how I wanted to display certain items and was inevitably roadblocked by the template. Even though you are able to manipulate the pages within the markdown files, the rendering command is responsible for creating the HTML output. All I had to do then was figure out how to inject code snippets within the files so that the rendering command would input the code into the HTML files.\nThankfully, this was simpler than I could have imagined to implement. For instance, I inserted the above bash commands but used this syntax:\n```\nINJECT CODE HERE\n```\nUsing this feature, I am able to insert HTML code into the markdown files to customize pages more freely. For instance, this is how I was able to implement my carousel image feature in the Physically-Based Visual Effects project page. This makes me excited to pick up HTML and CSS once again to hopefully add more cool features in the future."
-  },
-  {
-    "objectID": "blog/first-post/index.html#deploying-the-website-using-github-pages",
-    "href": "blog/first-post/index.html#deploying-the-website-using-github-pages",
-    "title": "Creating a Website using Quarto",
-    "section": "Deploying the Website using GitHub Pages",
-    "text": "Deploying the Website using GitHub Pages\nTo host the site, I use GitHub Pages which was surprisingly a lot simpler than I initially imagined to deploy the website. There are multiple ways that you can publish the files to GitHub Pages. I chose to render the files on my local machine and then configure a GitHub repository to publish that directory every time I update the render. By just adding the directory to the root YAML file, I can commit new changes to the GitHub repository, push the updated files, and then the changes are reflected on the site within a matter of minutes.\nOverall, as someone who was initially scared of web development and the idea that I needed to be an expert in multiple programming languages and frameworks, Quarto helped me realize that there are more simple alternatives while not sacrificing creative freedoms. Go check out Quarto or other SSG frameworks if you want to start exploring web development."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Christopher Jacobs",
-    "section": "",
-    "text": "My name is Christopher Jacobs, and I am a Ph.D. student in Computer Science at Clemson University, advised by Dr. Eric Patterson and currently based at Clemson’s Charleston Innovation Campus. My area of interest is within visual computing, with a focus on neural rendering techniques, facial analysis, and material capture.\nI bring a unique perspective to computer graphics research, combining my computer science background with creative expertise from my master’s in Digital Production Arts. My goal is to bridge cutting-edge research with real-world applications, particularly in digital media production.\nI was originally drawn to computer graphics through my fascination with game and animation production pipelines, and I am now motivated by the opportunity to develop new tools and pioneer technologies that others will build upon. I thrive in collaborative environments, typically approaching problems from a big-picture perspective before diving into more iterative refinements.\nI like to balance my research with hobbies such as cooking, gardening, and staying active through weightlifting and running. I am always interested in connecting with fellow researchers and industry professionals working in related areas. You can reach me through email here."
-  },
-  {
-    "objectID": "index.html#about-me",
-    "href": "index.html#about-me",
-    "title": "Christopher Jacobs",
-    "section": "",
-    "text": "My name is Christopher Jacobs, and I am a Ph.D. student in Computer Science at Clemson University, advised by Dr. Eric Patterson and currently based at Clemson’s Charleston Innovation Campus. My area of interest is within visual computing, with a focus on neural rendering techniques, facial analysis, and material capture.\nI bring a unique perspective to computer graphics research, combining my computer science background with creative expertise from my master’s in Digital Production Arts. My goal is to bridge cutting-edge research with real-world applications, particularly in digital media production.\nI was originally drawn to computer graphics through my fascination with game and animation production pipelines, and I am now motivated by the opportunity to develop new tools and pioneer technologies that others will build upon. I thrive in collaborative environments, typically approaching problems from a big-picture perspective before diving into more iterative refinements.\nI like to balance my research with hobbies such as cooking, gardening, and staying active through weightlifting and running. I am always interested in connecting with fellow researchers and industry professionals working in related areas. You can reach me through email here."
+    "text": "Understanding Player Dynamics in Battle Royale Environments: A Data-Driven Analysis Using the Caldera Dataset\nEmily Port, Christopher Jacobs, Joseph T. Kider Jr. ACM SIGGRAPH Motion, Interaction and Games (MIG), 2025"
   },
   {
     "objectID": "projects/three_dim/index.html#project-overview",
@@ -154,24 +77,94 @@
     "text": "Future Work\n\nAdd Windows and MacOS capabilities to build and execute the repository.\nExtend the final path to interpolate using a spline or bezier curve for a better, more realistic simulation.\nInclude animation of an object using the path interpolation to show proof of concept.\nResearch further to make the program more computationally efficient.\nExplore modern OpenGL.\nPossibly look at integrating the tool within Unreal Engine."
   },
   {
-    "objectID": "publications/index.html",
-    "href": "publications/index.html",
-    "title": "Publications",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Christopher Jacobs",
     "section": "",
-    "text": "Understanding Player Dynamics in Battle Royale Environments: A Data-Driven Analysis Using the Caldera Dataset\nEmily Port, Christopher Jacobs, Joseph T. Kider Jr. ACM SIGGRAPH Motion, Interaction and Games (MIG), 2025"
+    "text": "My name is Christopher Jacobs, and I am a Ph.D. student in Computer Science at Clemson University, advised by Dr. Eric Patterson and currently based at Clemson’s Charleston Innovation Campus. My area of interest is within visual computing, with a focus on neural rendering techniques, facial analysis, and material capture.\nI bring a unique perspective to computer graphics research, combining my computer science background with creative expertise from my master’s in Digital Production Arts. My goal is to bridge cutting-edge research with real-world applications, particularly in digital media production.\nI was originally drawn to computer graphics through my fascination with game and animation production pipelines, and I am now motivated by the opportunity to develop new tools and pioneer technologies that others will build upon. I thrive in collaborative environments, typically approaching problems from a big-picture perspective before diving into more iterative refinements.\nI like to balance my research with hobbies such as cooking, gardening, and staying active through weightlifting and running. I am always interested in connecting with fellow researchers and industry professionals working in related areas. You can reach me through email here."
   },
   {
-    "objectID": "research/past_research/index.html",
-    "href": "research/past_research/index.html",
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "Christopher Jacobs",
+    "section": "",
+    "text": "My name is Christopher Jacobs, and I am a Ph.D. student in Computer Science at Clemson University, advised by Dr. Eric Patterson and currently based at Clemson’s Charleston Innovation Campus. My area of interest is within visual computing, with a focus on neural rendering techniques, facial analysis, and material capture.\nI bring a unique perspective to computer graphics research, combining my computer science background with creative expertise from my master’s in Digital Production Arts. My goal is to bridge cutting-edge research with real-world applications, particularly in digital media production.\nI was originally drawn to computer graphics through my fascination with game and animation production pipelines, and I am now motivated by the opportunity to develop new tools and pioneer technologies that others will build upon. I thrive in collaborative environments, typically approaching problems from a big-picture perspective before diving into more iterative refinements.\nI like to balance my research with hobbies such as cooking, gardening, and staying active through weightlifting and running. I am always interested in connecting with fellow researchers and industry professionals working in related areas. You can reach me through email here."
+  },
+  {
+    "objectID": "blog/first-post/index.html#why-quarto",
+    "href": "blog/first-post/index.html#why-quarto",
+    "title": "Creating a Website using Quarto",
+    "section": "Why Quarto?",
+    "text": "Why Quarto?\nWhen I originally started to create my portfolio website, I tested a variety of site builders for simplicity (Wix Website Builder, Squarespace, etc.). Though it was an easy setup to get started, I despised how restrictive the site builders were in terms of limiting creativity. On the other hand, it has been several years since programming with HTML and CSS in undergrad, and it would be a daunting task to create an entire website from scratch. My colleague and friend Emily Port (check her out; she is amazing and incredibly intelligent) told me how she built her website using static site generators (SSG). Her website utilizes an SSG called Hugo, but while doing some more research, some developers discussed how they were moving away from Hugo and instead using Quarto. As someone who has not worked with either of these frameworks, I decided to go with Quarto, as people described the setup and rendering process as simple and easy to update."
+  },
+  {
+    "objectID": "blog/first-post/index.html#getting-started",
+    "href": "blog/first-post/index.html#getting-started",
+    "title": "Creating a Website using Quarto",
+    "section": "Getting Started",
+    "text": "Getting Started\nThe workflow itself isn’t that hard to follow, thankfully, especially with the guide they have on their website and the video tutorials they have on YouTube.\nEach page is mainly going to have two files: a Quarto Markdown Document (qmd) file where you can insert detailed documentation and a YML file that configures the frontmatter and website options for each page. To customize the pages, you can include a Sassy CSS (SCSS) file to program attributes such as font type, color themes, and special decorators.\nBefore previewing the website, you will need to render the page first using the render command:\nquarto render\nYou can also render specific files instead of the entire directory by specifying the file after the render keyword. After rendering the pages, you are able to preview the website on a local host using the following:\nquarto preview\nI recommend checking out their page of tutorials and tips to integrate how to implement website attributes, including navigation and tools."
+  },
+  {
+    "objectID": "blog/first-post/index.html#challenge-customizing-pages",
+    "href": "blog/first-post/index.html#challenge-customizing-pages",
+    "title": "Creating a Website using Quarto",
+    "section": "Challenge: Customizing Pages",
+    "text": "Challenge: Customizing Pages\nThe main challenge that I faced when customizing the website was being restricted by the original template. I think the template is great as a starting foundation, but as I added more information, I brainstormed ideas of how I wanted to display certain items and was inevitably roadblocked by the template. Even though you are able to manipulate the pages within the markdown files, the rendering command is responsible for creating the HTML output. All I had to do then was figure out how to inject code snippets within the files so that the rendering command would input the code into the HTML files.\nThankfully, this was simpler than I could have imagined to implement. For instance, I inserted the above bash commands but used this syntax:\n```\nINJECT CODE HERE\n```\nUsing this feature, I am able to insert HTML code into the markdown files to customize pages more freely. For instance, this is how I was able to implement my carousel image feature in the Physically-Based Visual Effects project page. This makes me excited to pick up HTML and CSS once again to hopefully add more cool features in the future."
+  },
+  {
+    "objectID": "blog/first-post/index.html#deploying-the-website-using-github-pages",
+    "href": "blog/first-post/index.html#deploying-the-website-using-github-pages",
+    "title": "Creating a Website using Quarto",
+    "section": "Deploying the Website using GitHub Pages",
+    "text": "Deploying the Website using GitHub Pages\nTo host the site, I use GitHub Pages which was surprisingly a lot simpler than I initially imagined to deploy the website. There are multiple ways that you can publish the files to GitHub Pages. I chose to render the files on my local machine and then configure a GitHub repository to publish that directory every time I update the render. By just adding the directory to the root YAML file, I can commit new changes to the GitHub repository, push the updated files, and then the changes are reflected on the site within a matter of minutes.\nOverall, as someone who was initially scared of web development and the idea that I needed to be an expert in multiple programming languages and frameworks, Quarto helped me realize that there are more simple alternatives while not sacrificing creative freedoms. Go check out Quarto or other SSG frameworks if you want to start exploring web development."
+  },
+  {
+    "objectID": "blog/index.html",
+    "href": "blog/index.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Creating a Website using Quarto\n\n\n\nTechnology\n\nWeb Development\n\n\n\nExplaining how I created this portfolio website using Quarto, a static site generator.\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Physically-Based Volumetric Renderer\n\n\n\nC/C++\n\nVolumetric Rendering\n\nVisual Effects\n\n\n\nA physically-accurate volumetric rendering pipline for creating visual effects commonly used in film productions.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThree-Dimensional Pathfinding\n\n\n\nC/C++\n\nAlgorithm and Design\n\nOpenGL\n\n\n\nA three-dimensional pathfinding program that utilizes A* and OpenGL to map the shortest path considering user-inputted obstacles.\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/volume/index.html#project-overview",
+    "href": "projects/volume/index.html#project-overview",
+    "title": "Physically-Based Volumetric Renderer",
+    "section": "Project Overview",
+    "text": "Project Overview\nI developed a physically-accurate volumetric rendering system in C++ for creating visual effects commonly used in feature film production. The pipeline utilizes a ray marching algorithm to evaluate implicit volumes and deep shadow maps, generating realistic atmospheric effects including noise clouds, pyroclastic volumes, wisps, terrain elements, and level sets.\nTechnologies: C++, OpenImageIO, OpenEXR, SWIG"
+  },
+  {
+    "objectID": "projects/volume/index.html#technical-implementation",
+    "href": "projects/volume/index.html#technical-implementation",
+    "title": "Physically-Based Volumetric Renderer",
+    "section": "Technical Implementation",
+    "text": "Technical Implementation\nThe rendering pipeline utilizes a multithreaded ray marching approach with physically-based scattering and shadowing models. Key technical components include:\n\nFlexible rendering: Users can render within a sparse grid for bounded rendering or utilize unbounded volume evaluation depending on production requirements.\nDual ray marcher architecture: Separate ray marchers to evaluate deep shadow maps and render volumetric features, enabling physically-accurate light with shadow and scattering properties.\nAdaptive step-size optimization: Dynamic step adjustment to balance performance optimization with rendering quality"
+  },
+  {
+    "objectID": "projects/volume/index.html#gallery",
+    "href": "projects/volume/index.html#gallery",
+    "title": "Physically-Based Volumetric Renderer",
+    "section": "Gallery",
+    "text": "Gallery\nBelow are three core effects that demonstrate the renderer’s capabilities with implicit volumes and procedural noise:\n\nFractal-Summed Perlin Noise\nPerlin Noise that can be modified and animated to mimick nature known as Fractal-Sum Perlin Noise. Includes modifiable parameters such as frequency, amplitude, roughness, frequency jump, and octaves to create more complex effects.\n\n\n  \n    \n    Fractal-Sum Noise Slice\n  \n\n  \n    \n      \n      \n        \n          \n        \n        \n          \n        \n        \n          \n        \n      \n      Fractal-Sum Noise Freeze Frames\n\n      \n        \n      \n\n      \n        \n      \n\n    \n  \n\n\n\n\nPyroclastic Effects\nPyroclastic noise fields combined with implicit functions using iterative closest-point to create trailing smoke, cloud formations, and explosive noise.\n\n  \n    \n    Pyroclastic Sphere Slice\n  \n  \n    \n      \n        \n          \n        \n        \n          \n        \n        \n          \n        \n      \n      Pyroclastic Sphere Freeze Frames\n      \n        \n      \n      \n        \n      \n    \n  \n\n\n\nWisps\nParticle-based volume generation where millions of particles are stamped and baked into a density grid to create wispy, flowing volumes. These particles can also be constrained to spline paths and contribute to water-like or magical effects.\n\n  \n    \n    Wisp Slice\n  \n  \n    \n      \n        \n          \n        \n        \n          \n        \n        \n          \n        \n      \n      Wisp Freeze Frames"
+  },
+  {
+    "objectID": "research/index.html",
+    "href": "research/index.html",
     "title": "Home",
     "section": "",
-    "text": "Current Research  | \n  Past Research \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMusiplexity: Classifying Music by Genre using Data Analysis and Machine Learning\n\n\n\nPython\n\nMachine Learning\n\nSignal Processing\n\n\n\nCan a computer sort music into predetermined genres using persistence homology and k-means clustering?\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Neural Rendering for Object Capture and Analysis\n\n  \n    \n    Feather Gaussian Splat (30k iterations)\n  \n  \n    \n        \n        Your browser does not support the video tag.\n    \n    Gaussian Splat Full View\n  \n  \n    \n    Variable Illumination Sphere (VarIS)\n  \n\n\n\n\nAdvisor: Dr. Eric Patterson | Clemson University\nTopics: Gaussian Splatting, Machine Learning, Material Capture, Facial Analysis\n\n\n\nAs a possible avenue for my dissertation, I am currently exploring neural inference techniques to improve vertex initialization in 3D Gaussian Splatting for facial and object reconstruction. This work focuses on leveraging multi-view feature detection to establish consistent point correspondences without the need for COLMAP algorithms that could be too expensive or incorrect.\n\n\n\n\n\n\nVIPR-GS: Tracked Vehicle Simulations in Unreal Engine 5 and Project Chrono (2025)\n\n\n\nAdvisor: Dr. Eric Patterson, Dr. Gregory Mocko | Clemson University\nTopics: C++, Python, Unreal Engine, Project Chrono, UDP Networking\n\n\n\nThis research project explored the implementation of a Polaris Rampage in a virtual environment for simulation prototype testing. Continuing from the Seed Project, I utilize Unreal Engine and Project Chrono to create specific maneuvers for testing the capabilities of the tracked vehicle. Since Project Chrono did not have a preset model that utilized the Rampage’s specific suspension system, I also dedicated time to research how we could implement this specific system using Chrono’s given API.\n\n\n\n\n\n\nVIPR-GS: Extensible Real-Time Prototyping Framework within Unreal Engine (2024)\n\n  \n    \n    Fractal-Sum Noise Slice\n  \n  \n    \n    Fractal-Sum Noise Slice\n  \n\n\n\n\nAdvisor: Dr. Eric Patterson | Clemson University\nTopics: C++, Python, Unreal Engine, Project Chrono, UDP Networking, PyTorch\n\n\n\nFor a Seed project with the Virtual Prototyping of Autonomy-Enabled Ground Systems group, my advisor wanted to research highly accurate physical simulations pertaining to tracked vehicles interacting with high-fidelity geospatial terrain tiles. We discovered rather quickly, however, that there was not much research on a universal set of standards for interoperating between high-fidelity systems. To address this gap, we performed a survey analysis of the state-of-the-art in high-fidelity digital twin simulations with optimized and interactive visualizations. During this period, we formulated benchmark variables and created a prototype between Unreal Engine and Project Chrono to reflect these variables.\n\nCheck it out here\n\n\n\n\n\n\nMusiplexity: Classifying Music by Genre using Data Analysis and Machine Learning (2022)\n\n  \n    \n    Fractal-Sum Noise Slice\n  \n  \n    \n    Fractal-Sum Noise Slice\n  \n\n\n\n\nAdvisor: Dr. Ivan Dungan | Francis Marion University\nTopics: Python, Machine Learning, Persistent Homology, Signal Processing\n\n\n\nFor my undergraduate thesis, I was keen on creating a research project that combined artificial intelligence and musical analysis. I partnered with Dr. Dungan and the Patriot Machine Learning Research Group to form my thesis: Can a computer classify snippets of a composition into predetermined genres accurately? I created a Python program called “Musiplexity” to estimate a selection’s genre by utilizing persistent homology and k-means clustering to analyze features found within the first thirty-seconds.\n\nCheck it out here"
   },
   {
-    "objectID": "research/past_research/VIPR/2024/index.html",
-    "href": "research/past_research/VIPR/2024/index.html",
+    "objectID": "research/VIPR/2024/index.html",
+    "href": "research/VIPR/2024/index.html",
     "title": "Extensible Real-Time Prototyping Framework within Unreal Engine",
     "section": "",
-    "text": "Extensible Real-Time Prototyping Framework within Unreal Engine\nResearch Assistant | February 2024 - February 2025 Project: VIPR-GS (Virtual Prototyping of Autonomy-Enabled Ground Systems) Collaborators: Dr. Eric Patterson\nDeveloping real-time simulation and visualization tools for autonomous ground vehicle prototyping, briding high-fidelity physics simulation with interactive 3D environments.\nTechnical Contributions:\n\nMiddleware architecture: Designed and implemented C++ and Python mideleware, enabling bidirectional communication between Project Chrono and Unreal Engine via UDP protocol.\nPhysics-informed neural network (PINNs) framework: Began developing a hybrid neural network model to accelerate wheeled vehicle dynamics while maintaining physical accuracy and reducing computational overhead for real-time applications (due to the project’s end date, this work is left unfinished).\n\nTechnologies: C++, Python, Unreal Engine 5, Project Chrono, PyTorch, UDP networking"
+    "text": "Research Assistant | February 2024 - February 2025 Project: VIPR-GS (Virtual Prototyping of Autonomy-Enabled Ground Systems) Collaborators: Dr. Eric Patterson\nDeveloping real-time simulation and visualization tools for autonomous ground vehicle prototyping, briding high-fidelity physics simulation with interactive 3D environments.\nTechnical Contributions:\n\nMiddleware architecture: Designed and implemented C++ and Python mideleware, enabling bidirectional communication between Project Chrono and Unreal Engine via UDP protocol.\nPhysics-informed neural network (PINNs) framework: Began developing a hybrid neural network model to accelerate wheeled vehicle dynamics while maintaining physical accuracy and reducing computational overhead for real-time applications (due to the project’s end date, this work is left unfinished).\n\nTechnologies: C++, Python, Unreal Engine 5, Project Chrono, PyTorch, UDP networking"
   }
 ]
